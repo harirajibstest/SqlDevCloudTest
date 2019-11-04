@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".frwfutfortheday FOR "TEST_VSTSRedgate".vewfrwfutfortheday;

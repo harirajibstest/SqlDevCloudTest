@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".optionexerciseforedit FOR "TEST_VSTSRedgate".trtran073;

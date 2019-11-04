@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".fk_cd_constr_name_idx ON "TEST_VSTSRedgate".dmrs_fk_cd_constraints(fk_ovid,constraint_ovid);

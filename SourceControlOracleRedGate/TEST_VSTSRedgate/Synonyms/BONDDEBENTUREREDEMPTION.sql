@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bonddebentureredemption FOR "TEST_VSTSRedgate".trtran033;

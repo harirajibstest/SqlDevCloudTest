@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".rollup_links_pk_idx ON "TEST_VSTSRedgate".dmrs_rollup_links(rollup_link_ovid);

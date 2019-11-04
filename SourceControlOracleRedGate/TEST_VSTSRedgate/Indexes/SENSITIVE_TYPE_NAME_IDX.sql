@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".sensitive_type_name_idx ON "TEST_VSTSRedgate".dmrs_sensitive_types(object_ovid,sensitive_type_name);

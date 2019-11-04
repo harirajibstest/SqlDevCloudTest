@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_document_elements (document_id,document_ovid,document_name,element_id,element_ovid,element_name,element_type,design_ovid) AS
+select  Document_ID, Document_OVID, Document_Name, Element_ID, Element_OVID, Element_Name, Element_Type, Design_OVID from DMRS_DOCUMENT_ELEMENTS;

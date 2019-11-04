@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".edelweisscurrencyledger FOR "TEST_VSTSRedgate".trstaging017;

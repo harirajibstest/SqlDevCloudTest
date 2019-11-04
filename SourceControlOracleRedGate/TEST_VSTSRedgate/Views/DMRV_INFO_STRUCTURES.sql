@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_info_structures (info_structure_id,info_structure_ovid,info_structure_name,model_id,model_ovid,model_name,growth_rate_unit,growth_rate_percent,"VOLUME",design_ovid) AS
+select  Info_Structure_ID, Info_Structure_OVID, Info_Structure_Name, Model_ID, Model_OVID, Model_Name, Growth_Rate_Unit, Growth_Rate_Percent, Volume, Design_OVID from DMRS_INFO_STRUCTURES;

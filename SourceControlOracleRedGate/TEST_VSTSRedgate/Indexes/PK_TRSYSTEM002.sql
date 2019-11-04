@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".pk_trsystem002 ON "TEST_VSTSRedgate".trsystem002(menu_company_code,menu_menu_id,menu_serial_number);

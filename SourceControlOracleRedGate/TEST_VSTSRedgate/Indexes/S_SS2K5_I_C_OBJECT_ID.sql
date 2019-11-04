@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_i_c_object_id ON "TEST_VSTSRedgate".stage_ss2k5_identity_columns(object_id);

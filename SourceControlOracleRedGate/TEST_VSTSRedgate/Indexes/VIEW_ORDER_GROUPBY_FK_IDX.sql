@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".view_order_groupby_fk_idx ON "TEST_VSTSRedgate".dmrs_view_order_groupby(view_ovid);

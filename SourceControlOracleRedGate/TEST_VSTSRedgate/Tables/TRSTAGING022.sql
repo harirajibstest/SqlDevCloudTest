@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trstaging022 (
+  "TYPE" VARCHAR2(2 BYTE),
+  company_code VARCHAR2(10 BYTE),
+  location_code VARCHAR2(10 BYTE),
+  lob_code VARCHAR2(10 BYTE),
+  document_no VARCHAR2(15 BYTE),
+  contract_date VARCHAR2(10 BYTE),
+  reference_no VARCHAR2(15 BYTE),
+  reference_date VARCHAR2(10 BYTE),
+  vendor_code VARCHAR2(15 BYTE),
+  vendor_name VARCHAR2(50 BYTE),
+  currency_code VARCHAR2(5 BYTE),
+  material_code VARCHAR2(15 BYTE),
+  material_desc VARCHAR2(50 BYTE),
+  payment_terms_desc VARCHAR2(50 BYTE),
+  payment_terms VARCHAR2(15 BYTE),
+  shipment_date VARCHAR2(10 BYTE),
+  uom_code VARCHAR2(15 BYTE),
+  uom_qty NUMBER(15,6),
+  uom_rate NUMBER(15,6),
+  net_value NUMBER(15,6),
+  exchange_rate NUMBER(15,6)
+);

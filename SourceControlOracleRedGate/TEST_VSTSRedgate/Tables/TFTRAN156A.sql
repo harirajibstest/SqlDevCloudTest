@@ -1,0 +1,21 @@
+CREATE TABLE "TEST_VSTSRedgate".tftran156a (
+  css_system_reference VARCHAR2(25 BYTE),
+  cass_serial_number NUMBER(5),
+  cass_gl_head VARCHAR2(20 BYTE),
+  cass_special_glindicator VARCHAR2(20 BYTE),
+  cass_credit_debit NUMBER(8),
+  cass_posting_key VARCHAR2(3 BYTE),
+  cass_document_type VARCHAR2(20 BYTE),
+  cass_profit_centre NUMBER(8),
+  cass_cost_centre VARCHAR2(50 BYTE),
+  cass_sio_number VARCHAR2(50 BYTE),
+  cass_vendor_code VARCHAR2(50 BYTE),
+  cass_vendor_group NUMBER(8),
+  cass_account_head NUMBER(8),
+  cass_range_from NUMBER(8),
+  cass_range_to NUMBER(8),
+  cass_mapper_type VARCHAR2(25 BYTE),
+  cass_create_date DATE,
+  cass_add_date DATE,
+  cass_record_status NUMBER(8)
+);

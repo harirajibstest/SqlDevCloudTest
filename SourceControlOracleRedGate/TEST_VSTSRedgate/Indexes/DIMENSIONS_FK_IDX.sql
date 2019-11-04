@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".dimensions_fk_idx ON "TEST_VSTSRedgate".dmrs_dimensions(model_ovid);

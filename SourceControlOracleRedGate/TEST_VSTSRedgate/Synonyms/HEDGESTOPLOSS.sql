@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".hedgestoploss FOR "TEST_VSTSRedgate".trsystem994;

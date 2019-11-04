@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".depositschem FOR "TEST_VSTSRedgate".trmaster406;

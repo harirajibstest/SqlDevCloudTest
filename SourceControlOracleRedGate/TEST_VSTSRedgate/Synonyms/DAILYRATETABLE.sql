@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".dailyratetable FOR "TEST_VSTSRedgate".trtran012;

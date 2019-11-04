@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".irounwind FOR "TEST_VSTSRedgate".trtran093c;

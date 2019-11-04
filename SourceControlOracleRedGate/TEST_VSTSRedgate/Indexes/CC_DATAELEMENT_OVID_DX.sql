@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".cc_dataelement_ovid_dx ON "TEST_VSTSRedgate".dmrs_check_constraints(dataelement_ovid);

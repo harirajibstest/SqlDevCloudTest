@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".tradingprofile FOR "TEST_VSTSRedgate".trsystem980;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".crisktable FOR "TEST_VSTSRedgate".trsystem996;

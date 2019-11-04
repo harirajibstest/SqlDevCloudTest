@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_models (design_id,design_ovid,design_name,model_id,model_ovid,model_name,model_type,rdbms_type) AS
+select  Design_ID, Design_OVID, Design_Name, Model_ID, Model_OVID, Model_Name, Model_Type, RDBMS_Type from DMRS_MODELS;

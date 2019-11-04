@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".table_include_scripts_fk_idx ON "TEST_VSTSRedgate".dmrs_table_include_scripts(table_ovid);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".fairvaluation FOR "TEST_VSTSRedgate".trtran110;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".customhousemaster FOR "TEST_VSTSRedgate".trmaster204;

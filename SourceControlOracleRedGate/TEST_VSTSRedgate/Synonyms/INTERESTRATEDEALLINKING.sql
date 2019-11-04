@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".interestratedeallinking FOR "TEST_VSTSRedgate".trtran096;

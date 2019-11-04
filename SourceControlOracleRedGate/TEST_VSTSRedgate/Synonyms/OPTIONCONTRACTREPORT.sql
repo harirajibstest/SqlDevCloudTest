@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".optioncontractreport FOR "TEST_VSTSRedgate".trsystem987;

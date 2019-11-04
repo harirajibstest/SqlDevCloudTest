@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".uq01_trmaster302 ON "TEST_VSTSRedgate".trmaster302(locn_pick_code);

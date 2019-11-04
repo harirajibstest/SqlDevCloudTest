@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".dmrs_coll_types_pk_idx ON "TEST_VSTSRedgate".dmrs_collection_types(collection_type_ovid);

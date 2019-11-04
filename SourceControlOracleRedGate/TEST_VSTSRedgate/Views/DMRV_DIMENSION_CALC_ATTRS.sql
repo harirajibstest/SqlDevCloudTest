@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_dimension_calc_attrs (dimension_id,dimension_name,dimension_ovid,calc_attribute_id,calc_attribute_name,calc_attribute_ovid,calculated_expr,design_ovid) AS
+select  Dimension_ID, Dimension_Name, Dimension_OVID, Calc_Attribute_ID, Calc_Attribute_Name, Calc_Attribute_OVID, Calculated_Expr, Design_OVID from DMRS_DIMENSION_CALC_ATTRS;

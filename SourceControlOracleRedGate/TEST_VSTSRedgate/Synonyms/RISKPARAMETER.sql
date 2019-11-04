@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".riskparameter FOR "TEST_VSTSRedgate".trsystem011;

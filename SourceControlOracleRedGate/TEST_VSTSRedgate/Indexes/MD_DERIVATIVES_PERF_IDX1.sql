@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".md_derivatives_perf_idx1 ON "TEST_VSTSRedgate".md_derivatives(src_type,derivative_reason);

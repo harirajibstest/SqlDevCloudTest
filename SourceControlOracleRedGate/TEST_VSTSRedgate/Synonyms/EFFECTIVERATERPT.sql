@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".effectiveraterpt FOR "TEST_VSTSRedgate".trsystem976;

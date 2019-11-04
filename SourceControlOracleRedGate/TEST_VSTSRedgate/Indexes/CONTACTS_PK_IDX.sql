@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".contacts_pk_idx ON "TEST_VSTSRedgate".dmrs_contacts(contact_ovid);

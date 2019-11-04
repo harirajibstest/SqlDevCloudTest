@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bonddebenturepurchase FOR "TEST_VSTSRedgate".trtran032;

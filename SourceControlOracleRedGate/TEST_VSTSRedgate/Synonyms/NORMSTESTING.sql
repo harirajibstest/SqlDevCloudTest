@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".normstesting FOR "TEST_VSTSRedgate".trmaster413;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".mailaudittrial FOR "TEST_VSTSRedgate".trsystem201;

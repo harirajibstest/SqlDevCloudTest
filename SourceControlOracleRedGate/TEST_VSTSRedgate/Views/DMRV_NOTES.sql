@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_notes (object_id,ovid,object_name,model_ovid,model_id,model_name,design_ovid) AS
+select  Object_ID, OVID, Object_Name, Model_OVID, Model_ID, Model_Name, Design_OVID from DMRS_NOTES;

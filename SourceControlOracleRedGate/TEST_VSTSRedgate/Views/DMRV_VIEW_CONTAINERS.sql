@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_view_containers (view_ovid,view_id,view_name,container_id,container_ovid,container_name,"TYPE","ALIAS","SEQUENCE",model_id,model_ovid,model_name,design_ovid) AS
+select  View_OVID, View_ID, View_Name, Container_ID, Container_OVID, Container_Name, Type, Alias, Sequence, Model_ID, Model_OVID, Model_Name, Design_OVID from DMRS_VIEW_CONTAINERS;

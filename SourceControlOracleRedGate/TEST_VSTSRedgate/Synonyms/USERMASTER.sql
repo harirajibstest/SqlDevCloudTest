@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".usermaster FOR "TEST_VSTSRedgate".trsystem022;

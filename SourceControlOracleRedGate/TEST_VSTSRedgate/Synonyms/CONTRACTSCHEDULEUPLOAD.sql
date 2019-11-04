@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".contractscheduleupload FOR "TEST_VSTSRedgate".trtran002d;

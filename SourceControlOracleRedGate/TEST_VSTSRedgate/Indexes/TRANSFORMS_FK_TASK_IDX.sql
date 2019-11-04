@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".transforms_fk_task_idx ON "TEST_VSTSRedgate".dmrs_transformations(transformation_task_ovid);

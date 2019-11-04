@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".forwardrollover FOR "TEST_VSTSRedgate".trtran001ra;

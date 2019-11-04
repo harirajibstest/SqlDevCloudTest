@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_locations (location_id,location_ovid,location_name,business_info_id,business_info_ovid,business_info_name,loc_address,loc_city,loc_post_code,loc_area,loc_country,loc_type,design_ovid) AS
+select  Location_ID, Location_OVID, Location_Name, Business_Info_ID, Business_Info_OVID, Business_Info_Name, Loc_Address, Loc_City, Loc_Post_Code, Loc_Area, Loc_Country, Loc_Type, Design_OVID from DMRS_LOCATIONS;

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".pk_tfsystem003 ON "TEST_VSTSRedgate".trsystem003(repm_menu_id,repm_report_id);

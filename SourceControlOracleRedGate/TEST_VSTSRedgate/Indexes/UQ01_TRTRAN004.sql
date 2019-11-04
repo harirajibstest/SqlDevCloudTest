@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".uq01_trtran004 ON "TEST_VSTSRedgate".trtran004(hedg_trade_reference,hedg_deal_number,hedg_deal_serial,hedg_trade_serial);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ss2k5_databases_database_id ON "TEST_VSTSRedgate".ss2k5_databases(database_id);

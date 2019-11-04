@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".integrationwithdata FOR "TEST_VSTSRedgate".trtran102;

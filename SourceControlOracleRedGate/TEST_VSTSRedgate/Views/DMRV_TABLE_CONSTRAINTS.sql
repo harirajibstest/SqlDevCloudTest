@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_table_constraints (table_id,table_ovid,"SEQUENCE",constraint_id,constraint_ovid,constraint_name,"TEXT",table_name,design_ovid) AS
+select  Table_ID, Table_OVID, Sequence, Constraint_ID, Constraint_OVID, Constraint_Name, Text, Table_Name, Design_OVID from DMRS_TABLE_CONSTRAINTS;

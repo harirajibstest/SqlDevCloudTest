@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".loanscheme FOR "TEST_VSTSRedgate".trmaster411;

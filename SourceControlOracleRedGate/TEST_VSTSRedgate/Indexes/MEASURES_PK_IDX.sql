@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".measures_pk_idx ON "TEST_VSTSRedgate".dmrs_measures(measure_ovid);

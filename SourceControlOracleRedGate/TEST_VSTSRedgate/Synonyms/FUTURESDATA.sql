@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".futuresdata FOR "TEST_VSTSRedgate".trtran103;

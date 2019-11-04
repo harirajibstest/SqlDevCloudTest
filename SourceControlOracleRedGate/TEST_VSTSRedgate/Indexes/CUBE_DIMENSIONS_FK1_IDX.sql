@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".cube_dimensions_fk1_idx ON "TEST_VSTSRedgate".dmrs_cube_dimensions(cube_ovid);

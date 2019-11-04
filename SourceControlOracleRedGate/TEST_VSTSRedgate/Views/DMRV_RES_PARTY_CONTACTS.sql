@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_res_party_contacts (responsible_party_id,responsible_party_ovid,responsible_party_name,contact_id,contact_ovid,contact_name,design_ovid) AS
+select  Responsible_Party_ID, Responsible_Party_OVID, Responsible_Party_Name, Contact_ID, Contact_OVID, Contact_Name, Design_OVID from DMRS_RES_PARTY_CONTACTS;

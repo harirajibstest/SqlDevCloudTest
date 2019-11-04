@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".daycolse FOR "TEST_VSTSRedgate".trsystem001;

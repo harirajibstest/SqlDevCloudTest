@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_collection_types (design_id,design_ovid,design_name,collection_type_id,collection_type_ovid,collection_type_name,c_type,datatype_id,datatype_ovid,datatype_name,dt_type,dt_ref,max_element,predefined) AS
+select  Design_ID, Design_OVID, Design_Name, Collection_Type_ID, Collection_Type_OVID, Collection_Type_Name, C_Type, DataType_ID, DataType_OVID, DataType_Name, DT_Type, DT_Ref, Max_Element, Predefined from DMRS_COLLECTION_TYPES;

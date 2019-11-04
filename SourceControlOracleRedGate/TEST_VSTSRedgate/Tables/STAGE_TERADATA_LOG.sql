@@ -1,0 +1,5 @@
+CREATE GLOBAL TEMPORARY TABLE "TEST_VSTSRedgate".stage_teradata_log (
+  line NUMBER,
+  logstring VARCHAR2(2000 CHAR)
+)
+ON COMMIT PRESERVE ROWS;

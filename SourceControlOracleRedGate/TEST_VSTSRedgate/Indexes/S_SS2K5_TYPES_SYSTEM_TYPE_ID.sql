@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_types_system_type_id ON "TEST_VSTSRedgate".stage_ss2k5_types(system_type_id);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".resource_locators_pk_idx ON "TEST_VSTSRedgate".dmrs_resource_locators(resource_locator_ovid);

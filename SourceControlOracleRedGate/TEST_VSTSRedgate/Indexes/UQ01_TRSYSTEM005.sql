@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".uq01_trsystem005 ON "TEST_VSTSRedgate".trsystem005(punt_program_unit);

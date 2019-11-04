@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".integrationoffxall FOR "TEST_VSTSRedgate".trtran103b_fxall_detail;

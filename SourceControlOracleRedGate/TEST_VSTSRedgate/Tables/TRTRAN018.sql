@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran018 (
+  fdrf_company_code NUMBER(8) NOT NULL,
+  fdrf_location_code NUMBER(8) NOT NULL,
+  fdrf_fd_number VARCHAR2(25 BYTE) NOT NULL,
+  fdrf_bank_reference VARCHAR2(25 BYTE),
+  fdrf_reference_date DATE,
+  fdrf_local_bank NUMBER(8) NOT NULL,
+  fdrf_deposit_amount NUMBER(15,2) NOT NULL,
+  fdrf_interest_rate NUMBER(15,2) NOT NULL,
+  fdrf_maturity_amount NUMBER(15,2) NOT NULL,
+  fdrf_maturity_date DATE,
+  fdrf_interest_amount NUMBER(15,2),
+  fdrf_closure_type NUMBER(8) NOT NULL,
+  fdrf_closure_date DATE,
+  fdrf_new_reference VARCHAR2(25 BYTE),
+  fdrf_create_date DATE NOT NULL,
+  fdrf_entry_detail XMLTYPE,
+  fdrf_record_status NUMBER(8) NOT NULL,
+  CONSTRAINT pk_trtran018 PRIMARY KEY (fdrf_company_code,fdrf_location_code,fdrf_fd_number)
+);

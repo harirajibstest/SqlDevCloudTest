@@ -1,0 +1,6 @@
+CREATE MATERIALIZED VIEW "TEST_VSTSRedgate".md_regex_catalog_mview (project_id,connection_id,connection_name,catalog_id,catalog_name,item,"VALUE")
+ORGANIZATION HEAP 
+AS SELECT  PROJECT_ID, CONNECTION_ID, CONNECTION_NAME,CATALOG_ID,
+        CATALOG_NAME, ITEM, SUM(VALUE) "VALUE" from MD_REGEX_SCHEMA_MVIEW
+        group by  PROJECT_ID, CONNECTION_ID, CONNECTION_NAME,CATALOG_ID,
+        CATALOG_NAME, ITEM;

@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_documents (document_id,document_ovid,document_name,business_info_id,business_info_ovid,business_info_name,parent_id,parent_ovid,parent_name,doc_reference,doc_type,design_ovid) AS
+select  Document_ID, Document_OVID, Document_Name, Business_Info_ID, Business_Info_OVID, Business_Info_Name, Parent_ID, Parent_OVID, Parent_Name, Doc_Reference, Doc_Type, Design_OVID from DMRS_DOCUMENTS;

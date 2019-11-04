@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".native_to_logical_fk_idxv1 ON "TEST_VSTSRedgate".dmrs_native_to_logical(logical_type_ovid);

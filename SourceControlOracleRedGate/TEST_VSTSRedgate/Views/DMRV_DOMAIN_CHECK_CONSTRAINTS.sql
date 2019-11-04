@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_domain_check_constraints (domain_id,domain_ovid,"SEQUENCE","TEXT",database_type,domain_name,design_ovid) AS
+select  Domain_ID, Domain_OVID, Sequence, Text, Database_Type, Domain_Name, Design_OVID from DMRS_DOMAIN_CHECK_CONSTRAINTS;

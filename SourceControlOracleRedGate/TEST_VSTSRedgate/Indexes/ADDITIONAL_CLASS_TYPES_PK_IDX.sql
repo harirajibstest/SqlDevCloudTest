@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".additional_class_types_pk_idx ON "TEST_VSTSRedgate".dmrs_additional_ct_objects(type_ovid);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".locationmaster FOR "TEST_VSTSRedgate".trmaster302;

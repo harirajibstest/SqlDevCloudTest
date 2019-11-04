@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".md_tables_perf_idx2 ON "TEST_VSTSRedgate".md_views(UPPER("VIEW_NAME"),schema_id_fk);

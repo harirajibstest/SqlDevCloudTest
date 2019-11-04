@@ -1,0 +1,21 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran009 (
+  lmod_company_code NUMBER(8) NOT NULL,
+  lmod_reference_number VARCHAR2(25 BYTE) NOT NULL,
+  lmod_reference_serial NUMBER(5) NOT NULL,
+  lmod_change_date DATE NOT NULL,
+  lmod_enhanced_fcy NUMBER(15,4),
+  lmod_enhanced_rate NUMBER(15,6),
+  lmod_maturity_from DATE,
+  lmod_create_date DATE NOT NULL,
+  lmod_entry_detail XMLTYPE,
+  lmod_record_status NUMBER(8) NOT NULL,
+  lmod_maturity_date DATE,
+  lmod_other_amount NUMBER(15,2),
+  lmod_local_rate NUMBER(15,6),
+  lmod_local_amount NUMBER(15,2),
+  lmod_deal_remarks VARCHAR2(200 BYTE),
+  lmod_profit_loss NUMBER(15,2) NOT NULL,
+  lmod_serial_number NUMBER(5) NOT NULL,
+  lmod_pl_voucher VARCHAR2(25 BYTE),
+  CONSTRAINT trtran009_pk PRIMARY KEY (lmod_company_code,lmod_reference_number,lmod_reference_serial,lmod_serial_number)
+);

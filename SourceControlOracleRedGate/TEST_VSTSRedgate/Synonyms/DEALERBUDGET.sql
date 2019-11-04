@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".dealerbudget FOR "TEST_VSTSRedgate".trsystem016;

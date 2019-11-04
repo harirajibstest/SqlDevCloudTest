@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ss2k5_schemata_schema_name ON "TEST_VSTSRedgate".ss2k5_schemata(schema_name);

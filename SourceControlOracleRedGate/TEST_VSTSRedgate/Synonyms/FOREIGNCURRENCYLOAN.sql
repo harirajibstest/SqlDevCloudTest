@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".foreigncurrencyloan FOR "TEST_VSTSRedgate".trtran005;

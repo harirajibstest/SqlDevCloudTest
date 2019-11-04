@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".column_groups_fk_idx ON "TEST_VSTSRedgate".dmrs_column_groups(table_ovid);

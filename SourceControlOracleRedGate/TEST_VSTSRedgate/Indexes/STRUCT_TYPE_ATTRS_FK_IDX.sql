@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".struct_type_attrs_fk_idx ON "TEST_VSTSRedgate".dmrs_struct_type_attrs(structured_type_ovid);

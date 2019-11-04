@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".svcfuturemtmrate FOR "TEST_VSTSRedgate".trtran064;

@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran091a (
+  iirl_irs_number VARCHAR2(25 BYTE) NOT NULL,
+  iirl_serial_number VARCHAR2(25 BYTE) NOT NULL,
+  iirl_buy_sell NUMBER(8),
+  iirl_currency_code NUMBER(8),
+  iirl_int_type NUMBER(8),
+  iirl_int_charge NUMBER(8),
+  iirl_base_rate NUMBER(15,6),
+  iirl_spread NUMBER(15,6),
+  iirl_final_rate NUMBER(15,6),
+  iirl_interest_daystype NUMBER(8),
+  iirl_rate_type NUMBER(8),
+  iirl_create_date DATE,
+  iirl_add_date DATE,
+  iirl_time_stamp VARCHAR2(25 BYTE),
+  iirl_record_status NUMBER(8),
+  iirl_user_reference VARCHAR2(50 BYTE),
+  iirl_user_remarks VARCHAR2(50 BYTE),
+  iirl_interest_fixingtype NUMBER(8),
+  iirl_notional_amount NUMBER(15,2),
+  iirl_paymentfixing_daystype NUMBER(8),
+  CONSTRAINT trtran091a_pk PRIMARY KEY (iirl_irs_number,iirl_serial_number)
+);

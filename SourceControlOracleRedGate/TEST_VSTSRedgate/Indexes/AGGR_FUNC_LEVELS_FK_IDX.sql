@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".aggr_func_levels_fk_idx ON "TEST_VSTSRedgate".dmrs_aggr_func_levels(aggregate_function_ovid);

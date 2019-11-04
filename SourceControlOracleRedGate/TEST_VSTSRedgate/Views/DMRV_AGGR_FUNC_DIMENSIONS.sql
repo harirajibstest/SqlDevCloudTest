@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_aggr_func_dimensions (aggregate_function_id,aggregate_function_name,aggregate_function_ovid,dimension_id,dimension_name,dimension_ovid,design_ovid) AS
+select  Aggregate_Function_ID, Aggregate_Function_Name, Aggregate_Function_OVID, Dimension_ID, Dimension_Name, Dimension_OVID, Design_OVID from DMRS_AGGR_FUNC_DIMENSIONS;

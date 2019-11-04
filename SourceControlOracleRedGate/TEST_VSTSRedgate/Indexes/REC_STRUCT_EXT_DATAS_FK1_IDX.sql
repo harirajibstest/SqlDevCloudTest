@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".rec_struct_ext_datas_fk1_idx ON "TEST_VSTSRedgate".dmrs_record_struct_ext_datas(record_structure_ovid);

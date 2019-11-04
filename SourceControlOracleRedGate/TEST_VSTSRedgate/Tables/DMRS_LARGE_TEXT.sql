@@ -1,0 +1,8 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_large_text (
+  object_id VARCHAR2(80 BYTE) NOT NULL,
+  ovid VARCHAR2(36 BYTE) NOT NULL,
+  object_name VARCHAR2(256 BYTE),
+  "TYPE" VARCHAR2(30 BYTE),
+  "TEXT" NCLOB NOT NULL,
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

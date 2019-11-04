@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_column_ui ("LABEL",format_mask,form_display_width,form_maximum_width,display_as,form_height,displayed_on_forms,displayed_on_reports,read_only,help_text,object_id,object_ovid,object_name,design_ovid) AS
+select  Label, Format_Mask, Form_Display_Width, Form_Maximum_Width, Display_As, Form_Height, Displayed_On_Forms, Displayed_On_Reports, Read_Only, Help_Text, Object_ID, Object_OVID, Object_Name, Design_OVID from DMRS_COLUMN_UI;

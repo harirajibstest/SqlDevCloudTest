@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bondinterestcharging FOR "TEST_VSTSRedgate".trtran034;

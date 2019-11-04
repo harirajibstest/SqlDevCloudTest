@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".commodityrisk FOR "TEST_VSTSRedgate".trsystem019;

@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_task_params_items (task_params_item_id,task_params_item_ovid,task_params_item_name,task_params_id,task_params_ovid,task_params_name,logical_type_id,logical_type_ovid,logical_type_name,task_params_item_type,design_ovid) AS
+select  Task_Params_Item_ID, Task_Params_Item_OVID, Task_Params_Item_Name, Task_Params_ID, Task_Params_OVID, Task_Params_Name, Logical_Type_ID, Logical_Type_OVID, Logical_Type_Name, Task_Params_Item_Type, Design_OVID from DMRS_TASK_PARAMS_ITEMS;

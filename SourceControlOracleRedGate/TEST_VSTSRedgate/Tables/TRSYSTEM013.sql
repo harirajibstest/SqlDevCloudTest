@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trsystem013 (
+  remp_reminder_code NUMBER(8) NOT NULL,
+  remp_periodicity_code NUMBER(8),
+  remp_report_id VARCHAR2(30 BYTE) NOT NULL,
+  remp_report_remarks VARCHAR2(256 BYTE),
+  remp_report_query VARCHAR2(4000 BYTE),
+  remp_report_field VARCHAR2(50 BYTE),
+  remp_report_header VARCHAR2(100 BYTE),
+  remp_user_forward VARCHAR2(1000 BYTE),
+  remp_create_date DATE NOT NULL,
+  remp_entry_detail XMLTYPE,
+  remp_record_status NUMBER(8) NOT NULL,
+  remp_frequency_no NUMBER(5),
+  remp_serial_number NUMBER(8) NOT NULL,
+  remp_report_grouping VARCHAR2(4000 BYTE),
+  remp_schedule_time VARCHAR2(8 BYTE),
+  remp_business_unit NUMBER(8),
+  remp_profit_center NUMBER(8),
+  remp_mail_to VARCHAR2(1000 BYTE),
+  remp_mail_cc VARCHAR2(100 BYTE),
+  remp_custom_report NUMBER(8),
+  repm_user_ids VARCHAR2(500 BYTE)
+);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".exportrealize FOR "TEST_VSTSRedgate".trtran003;

@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_measure_aggr_funcs (measure_id,measure_name,measure_ovid,aggregate_function_id,aggregate_function_name,aggregate_function_ovid,measure_alias,is_default,design_ovid) AS
+select  Measure_ID, Measure_Name, Measure_OVID, Aggregate_Function_ID, Aggregate_Function_Name, Aggregate_Function_OVID, Measure_Alias, Is_Default, Design_OVID from DMRS_MEASURE_AGGR_FUNCS;

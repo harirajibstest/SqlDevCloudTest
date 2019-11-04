@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_slice_measures (slice_id,slice_name,slice_ovid,measure_id,measure_name,measure_ovid,aggregate_function_id,aggregate_function_name,aggregate_function_ovid,measure_alias,design_ovid) AS
+select  Slice_ID, Slice_Name, Slice_OVID, Measure_ID, Measure_Name, Measure_OVID, Aggregate_Function_ID, Aggregate_Function_Name, Aggregate_Function_OVID, Measure_Alias, Design_OVID from DMRS_SLICE_MEASURES;

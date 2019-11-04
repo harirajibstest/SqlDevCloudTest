@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".currencyfuturedealcancel FOR "TEST_VSTSRedgate".trtran063;

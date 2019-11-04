@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".task_params_items_fk_pars_idx ON "TEST_VSTSRedgate".dmrs_task_params_items(task_params_ovid);

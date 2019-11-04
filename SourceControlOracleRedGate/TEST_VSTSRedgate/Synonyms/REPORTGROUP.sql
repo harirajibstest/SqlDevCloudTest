@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".reportgroup FOR "TEST_VSTSRedgate".trsystem003;

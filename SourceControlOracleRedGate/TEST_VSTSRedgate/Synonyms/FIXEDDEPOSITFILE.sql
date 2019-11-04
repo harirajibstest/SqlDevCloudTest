@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".fixeddepositfile FOR "TEST_VSTSRedgate".trtran047;

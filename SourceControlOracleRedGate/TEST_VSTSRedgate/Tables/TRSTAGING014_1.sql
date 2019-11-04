@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trstaging014_1 (
+  executedate DATE,
+  linkamount NUMBER(15,6),
+  basecurrency NUMBER(8),
+  othercurrency NUMBER(8),
+  bank NUMBER(8),
+  maturitydate DATE,
+  amountfcy NUMBER(15,2),
+  forwardrate NUMBER(15,6),
+  contractnumber VARCHAR2(25 BYTE),
+  buysell NUMBER(8),
+  stag_record_status NUMBER(8),
+  companycode NUMBER(8),
+  locationcode NUMBER(8),
+  product NUMBER(8),
+  subproduct NUMBER(8),
+  entrydate DATE,
+  column1 VARCHAR2(20 BYTE),
+  fileguid VARCHAR2(50 BYTE)
+);

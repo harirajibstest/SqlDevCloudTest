@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_indexes (index_name,object_id,ovid,import_id,container_id,container_ovid,"STATE",functional,expression,engineer,table_name,spatial_index,spatial_layer_type,geodetic_index,number_of_dimensions,design_ovid) AS
+select  Index_Name, Object_ID, OVID, Import_ID, Container_ID, Container_OVID, State, Functional, Expression, Engineer, Table_Name, Spatial_Index, Spatial_Layer_Type, Geodetic_Index, Number_Of_Dimensions, Design_OVID from DMRS_INDEXES;

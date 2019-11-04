@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".companydetails FOR "TEST_VSTSRedgate".trsystem051;

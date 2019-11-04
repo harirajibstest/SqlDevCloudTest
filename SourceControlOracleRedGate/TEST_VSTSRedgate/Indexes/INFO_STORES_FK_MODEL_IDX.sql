@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".info_stores_fk_model_idx ON "TEST_VSTSRedgate".dmrs_info_stores(model_ovid);

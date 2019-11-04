@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".tdsplan FOR "TEST_VSTSRedgate".trmaster407;

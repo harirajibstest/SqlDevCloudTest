@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".borrowermaster FOR "TEST_VSTSRedgate".trmaster305;

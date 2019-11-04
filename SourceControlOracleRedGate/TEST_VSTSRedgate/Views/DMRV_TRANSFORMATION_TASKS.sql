@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_transformation_tasks (transformation_task_id,transformation_task_ovid,transformation_task_name,transformation_package_id,transformation_package_ovid,transformation_package_name,process_id,process_ovid,process_name,top_level,design_ovid) AS
+select  Transformation_Task_ID, Transformation_Task_OVID, Transformation_Task_Name, Transformation_Package_ID, Transformation_Package_OVID, Transformation_Package_Name, Process_ID, Process_OVID, Process_Name, Top_Level, Design_OVID from DMRS_TRANSFORMATION_TASKS;

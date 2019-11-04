@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".pk_trsystem005 ON "TEST_VSTSRedgate".trsystem005(punt_company_code,punt_program_unit,punt_serial_number);

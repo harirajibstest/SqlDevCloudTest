@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".smsmail FOR "TEST_VSTSRedgate".smstemp;

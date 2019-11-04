@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_column_groups (table_id,table_ovid,"SEQUENCE",columngroup_id,columngroup_ovid,columngroup_name,"COLUMNS",notes,table_name,design_ovid) AS
+select  Table_ID, Table_OVID, Sequence, ColumnGroup_ID, ColumnGroup_OVID, ColumnGroup_Name, Columns, Notes, Table_Name, Design_OVID from DMRS_COLUMN_GROUPS;

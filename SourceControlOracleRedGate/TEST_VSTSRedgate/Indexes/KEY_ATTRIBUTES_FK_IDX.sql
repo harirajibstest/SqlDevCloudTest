@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".key_attributes_fk_idx ON "TEST_VSTSRedgate".dmrs_key_attributes(key_ovid);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".notes_fk_idx ON "TEST_VSTSRedgate".dmrs_notes(model_ovid);

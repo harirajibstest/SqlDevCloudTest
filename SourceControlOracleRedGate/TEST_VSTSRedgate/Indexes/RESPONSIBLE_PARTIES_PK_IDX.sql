@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".responsible_parties_pk_idx ON "TEST_VSTSRedgate".dmrs_responsible_parties(responsible_party_ovid);

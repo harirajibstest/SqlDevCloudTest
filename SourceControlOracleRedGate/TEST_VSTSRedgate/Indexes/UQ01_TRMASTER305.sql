@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".uq01_trmaster305 ON "TEST_VSTSRedgate".trmaster305(cust_pick_code);

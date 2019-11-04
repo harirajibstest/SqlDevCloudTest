@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".measure_folders_fk_idx ON "TEST_VSTSRedgate".dmrs_measure_folders(model_ovid);

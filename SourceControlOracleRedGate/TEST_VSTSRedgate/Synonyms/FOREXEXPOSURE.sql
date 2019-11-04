@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".forexexposure FOR "TEST_VSTSRedgate".trsystem977;

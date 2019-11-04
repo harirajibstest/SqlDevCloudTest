@@ -1,0 +1,10 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_roles (
+  role_id VARCHAR2(70 BYTE) NOT NULL,
+  role_ovid VARCHAR2(36 BYTE) NOT NULL,
+  role_name VARCHAR2(256 BYTE) NOT NULL,
+  model_id VARCHAR2(70 BYTE) NOT NULL,
+  model_ovid VARCHAR2(36 BYTE) NOT NULL,
+  model_name VARCHAR2(256 BYTE) NOT NULL,
+  description VARCHAR2(4000 BYTE),
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

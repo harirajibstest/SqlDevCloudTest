@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ext_agents_fk_diagram_idx ON "TEST_VSTSRedgate".dmrs_external_agents(diagram_ovid);

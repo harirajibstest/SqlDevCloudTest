@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_reports_version_1_0 (dmrs_persistence_version,dmrs_reports_version,created_on) AS
+select 1.6 DMRS_Persistence_Version, 1.0 DMRS_Reports_Version, to_timestamp('2019/10/07 06:06:36','YYYY/MM/DD HH24:MI:SS') Created_On from dual with read only;

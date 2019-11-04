@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".shippingdetails FOR "TEST_VSTSRedgate".trstaging019;

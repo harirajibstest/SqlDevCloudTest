@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_table_include_scripts (table_id,table_ovid,table_name,"TYPE","SEQUENCE","TEXT",design_ovid) AS
+select  Table_ID, Table_OVID, Table_Name, Type, Sequence, Text, Design_OVID from DMRS_TABLE_INCLUDE_SCRIPTS;

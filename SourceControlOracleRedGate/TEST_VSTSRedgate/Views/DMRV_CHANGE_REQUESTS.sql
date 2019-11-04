@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_change_requests (design_id,design_ovid,design_name,change_request_id,change_request_ovid,change_request_name,request_status,request_date_string,completion_date_string,is_completed,reason) AS
+select  Design_ID, Design_OVID, Design_Name, Change_Request_ID, Change_Request_OVID, Change_Request_Name, Request_Status, Request_Date_String, Completion_Date_String, Is_Completed, Reason from DMRS_CHANGE_REQUESTS;

@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trsystem960 (
+  mail_bank_name VARCHAR2(10 BYTE),
+  mail_currency_name VARCHAR2(10 BYTE),
+  mail_transaction_type VARCHAR2(25 BYTE),
+  mail_supplier_name VARCHAR2(50 BYTE),
+  mail_amount_fcy NUMBER(15,2),
+  mail_interest_amount NUMBER(15,2),
+  mail_repayment_amount NUMBER(15,2),
+  mail_due_date DATE,
+  mail_reference_number VARCHAR2(30 BYTE),
+  mail_due_from DATE,
+  mail_exchange_rate NUMBER(15,6),
+  mail_exchange_code VARCHAR2(50 BYTE),
+  mail_buy_sell VARCHAR2(50 BYTE),
+  mail_option_type VARCHAR2(50 BYTE),
+  mail_backup_deal VARCHAR2(50 BYTE),
+  mail_init_code VARCHAR2(50 BYTE),
+  mail_execute_date DATE,
+  mail_alert_reference VARCHAR2(25 BYTE)
+);

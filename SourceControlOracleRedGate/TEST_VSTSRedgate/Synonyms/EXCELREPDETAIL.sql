@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".excelrepdetail FOR "TEST_VSTSRedgate".trsystem036;

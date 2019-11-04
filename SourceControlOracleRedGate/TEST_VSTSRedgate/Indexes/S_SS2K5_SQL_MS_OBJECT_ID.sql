@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_sql_ms_object_id ON "TEST_VSTSRedgate".stage_ss2k5_sql_modules(object_id);

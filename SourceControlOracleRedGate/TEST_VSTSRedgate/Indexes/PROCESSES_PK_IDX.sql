@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".processes_pk_idx ON "TEST_VSTSRedgate".dmrs_processes(process_ovid);

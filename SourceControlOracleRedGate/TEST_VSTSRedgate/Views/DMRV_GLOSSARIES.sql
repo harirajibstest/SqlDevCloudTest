@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_glossaries (glossary_id,glossary_ovid,glossary_name,file_name,description,incomplete_modifiers,case_sensitive,unique_abbrevs,separator_type,separator_char,date_published,published_by,persistence_version,version_comments) AS
+select  Glossary_ID, Glossary_OVID, Glossary_Name, File_Name, Description, Incomplete_Modifiers, Case_Sensitive, Unique_Abbrevs, Separator_Type, Separator_Char, Date_Published, Published_By, Persistence_Version, Version_Comments from DMRS_GLOSSARIES;

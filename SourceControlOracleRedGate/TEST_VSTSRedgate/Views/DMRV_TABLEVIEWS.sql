@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_tableviews (tableview_name,object_id,ovid,import_id,model_id,model_ovid,structured_type_id,structured_type_ovid,structured_type_name,where_clause,having_clause,"USER_DEFINED",engineer,allow_type_substitution,oid_columns,model_name,design_ovid) AS
+select  TableView_Name, Object_ID, OVID, Import_ID, Model_ID, Model_OVID, Structured_Type_ID, Structured_Type_OVID, Structured_Type_Name, Where_Clause, Having_Clause, User_Defined, Engineer, Allow_Type_Substitution, OID_Columns, Model_Name, Design_OVID from DMRS_TABLEVIEWS;

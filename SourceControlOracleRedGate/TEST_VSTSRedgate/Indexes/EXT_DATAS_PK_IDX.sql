@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ext_datas_pk_idx ON "TEST_VSTSRedgate".dmrs_external_datas(external_data_ovid);

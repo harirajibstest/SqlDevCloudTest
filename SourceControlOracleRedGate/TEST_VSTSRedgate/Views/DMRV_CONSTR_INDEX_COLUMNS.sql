@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_constr_index_columns (index_id,index_ovid,column_id,column_ovid,table_id,table_ovid,index_name,table_name,column_name,"SEQUENCE",sort_order,design_ovid) AS
+select  Index_ID, Index_OVID, Column_ID, Column_OVID, Table_ID, Table_OVID, Index_Name, Table_Name, Column_Name, Sequence, Sort_Order, Design_OVID from DMRS_CONSTR_INDEX_COLUMNS;

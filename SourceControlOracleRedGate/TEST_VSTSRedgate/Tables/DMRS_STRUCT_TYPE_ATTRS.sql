@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_struct_type_attrs (
+  attribute_id VARCHAR2(70 BYTE) NOT NULL,
+  attribute_ovid VARCHAR2(36 BYTE) NOT NULL,
+  attribute_name VARCHAR2(256 BYTE) NOT NULL,
+  structured_type_id VARCHAR2(70 BYTE) NOT NULL,
+  structured_type_ovid VARCHAR2(36 BYTE) NOT NULL,
+  structured_type_name VARCHAR2(256 BYTE) NOT NULL,
+  mandatory CHAR NOT NULL,
+  "REFERENCE" CHAR NOT NULL,
+  t_size VARCHAR2(20 BYTE),
+  t_precision NUMBER,
+  t_scale NUMBER,
+  type_id VARCHAR2(70 BYTE),
+  type_ovid VARCHAR2(36 BYTE),
+  type_name VARCHAR2(256 BYTE),
+  design_ovid VARCHAR2(36 BYTE) NOT NULL,
+  datatype_kind VARCHAR2(20 BYTE),
+  domain_name VARCHAR2(256 BYTE),
+  char_units CHAR(4 BYTE)
+);

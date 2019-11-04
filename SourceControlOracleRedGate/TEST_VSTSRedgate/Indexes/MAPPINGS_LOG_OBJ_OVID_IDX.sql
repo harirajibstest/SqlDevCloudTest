@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".mappings_log_obj_ovid_idx ON "TEST_VSTSRedgate".dmrs_mappings(logical_object_ovid);

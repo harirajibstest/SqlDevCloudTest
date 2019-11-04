@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".md_additional_properties_idx ON "TEST_VSTSRedgate".md_additional_properties(prop_key);

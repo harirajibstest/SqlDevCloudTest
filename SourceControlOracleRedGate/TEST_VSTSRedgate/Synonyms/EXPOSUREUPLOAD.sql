@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".exposureupload FOR "TEST_VSTSRedgate".trtran002;

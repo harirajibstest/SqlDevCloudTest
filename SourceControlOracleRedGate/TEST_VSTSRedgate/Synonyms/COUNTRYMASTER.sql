@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".countrymaster FOR "TEST_VSTSRedgate".trmaster303;

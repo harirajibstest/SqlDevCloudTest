@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".integrationoffxallgo FOR "TEST_VSTSRedgate".trtran103a;

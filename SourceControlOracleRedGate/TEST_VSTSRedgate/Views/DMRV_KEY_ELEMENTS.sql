@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_key_elements (key_id,key_ovid,"TYPE",element_id,element_ovid,element_name,"SEQUENCE",source_label,target_label,entity_id,key_name,entity_ovid,entity_name,design_ovid) AS
+select  Key_ID, Key_OVID, Type, Element_ID, Element_OVID, Element_Name, Sequence, Source_Label, Target_Label, Entity_ID, Key_Name, Entity_OVID, Entity_Name, Design_OVID from DMRS_KEY_ELEMENTS;

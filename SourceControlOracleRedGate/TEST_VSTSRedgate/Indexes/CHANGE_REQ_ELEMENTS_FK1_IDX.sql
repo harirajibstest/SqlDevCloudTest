@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".change_req_elements_fk1_idx ON "TEST_VSTSRedgate".dmrs_change_request_elements(change_request_ovid);

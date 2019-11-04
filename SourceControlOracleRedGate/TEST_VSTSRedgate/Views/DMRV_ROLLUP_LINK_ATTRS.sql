@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_rollup_link_attrs (rollup_link_id,rollup_link_name,rollup_link_ovid,attribute_id,attribute_name,attribute_ovid,design_ovid) AS
+select  Rollup_Link_ID, Rollup_Link_Name, Rollup_Link_OVID, Attribute_ID, Attribute_Name, Attribute_OVID, Design_OVID from DMRS_ROLLUP_LINK_ATTRS;

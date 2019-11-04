@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trmaster305 (
+  cust_company_code NUMBER(8) NOT NULL,
+  cust_pick_code NUMBER(8) NOT NULL,
+  cust_customer_type NUMBER(8) NOT NULL,
+  cust_short_description VARCHAR2(15 BYTE) NOT NULL,
+  cust_long_description VARCHAR2(50 BYTE) NOT NULL,
+  cust_contact_person VARCHAR2(50 BYTE),
+  cust_address_1 VARCHAR2(50 BYTE) NOT NULL,
+  cust_address_2 VARCHAR2(50 BYTE),
+  cust_address_3 VARCHAR2(50 BYTE),
+  cust_address_4 VARCHAR2(50 BYTE),
+  cust_phone_numbers VARCHAR2(200 BYTE),
+  cust_fax_numbers VARCHAR2(200 BYTE),
+  cust_email_id VARCHAR2(100 BYTE),
+  cust_country_code NUMBER(8) NOT NULL,
+  cust_create_date DATE NOT NULL,
+  cust_add_date DATE NOT NULL,
+  cust_entry_detail XMLTYPE,
+  cust_record_status NUMBER(8) NOT NULL,
+  cust_location_code NUMBER(8),
+  cust_constituent_code NUMBER(8),
+  CONSTRAINT trmaster305_pk PRIMARY KEY (cust_company_code,cust_pick_code) USING INDEX "TEST_VSTSRedgate".pk_tfmaster212
+);

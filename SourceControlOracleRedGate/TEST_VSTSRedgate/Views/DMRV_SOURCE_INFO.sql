@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_source_info (source_info_ovid,source_info_type,ddl_file_name,ddl_path_name,ddl_db_type,datadict_connection_name,datadict_connection_url,datadict_db_type,model_id,model_ovid,model_name,design_ovid) AS
+select  Source_Info_OVID, Source_Info_Type, DDL_File_Name, DDL_Path_Name, DDL_DB_Type, DataDict_Connection_Name, DataDict_Connection_Url, DataDict_DB_Type, Model_ID, Model_OVID, Model_Name, Design_OVID from DMRS_SOURCE_INFO;

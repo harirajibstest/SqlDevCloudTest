@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".processes_fk_diagram_idx ON "TEST_VSTSRedgate".dmrs_processes(diagram_ovid);

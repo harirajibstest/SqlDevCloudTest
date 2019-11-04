@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".res_party_contacts_fk2_idx ON "TEST_VSTSRedgate".dmrs_res_party_contacts(contact_ovid);

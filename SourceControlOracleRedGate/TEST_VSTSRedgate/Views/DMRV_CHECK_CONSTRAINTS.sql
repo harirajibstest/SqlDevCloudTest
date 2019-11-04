@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_check_constraints (dataelement_id,dataelement_ovid,"TYPE","SEQUENCE",constraint_name,"TEXT",database_type,container_id,container_ovid,container_name,dataelement_name,design_ovid) AS
+select  DataElement_ID, DataElement_OVID, Type, Sequence, Constraint_Name, Text, Database_Type, Container_ID, Container_OVID, Container_Name, DataElement_Name, Design_OVID from DMRS_CHECK_CONSTRAINTS;

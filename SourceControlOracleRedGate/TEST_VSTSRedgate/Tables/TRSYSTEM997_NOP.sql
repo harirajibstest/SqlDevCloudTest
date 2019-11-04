@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trsystem997_nop (
+  posn_maturity_month VARCHAR2(10 BYTE),
+  posn_inflow_amount NUMBER(15,2),
+  posn_outflow_amount NUMBER(15,2),
+  posn_inflowhedge_amount NUMBER(15,2),
+  posn_outflowhedge_amount NUMBER(15,2),
+  posn_exposure_gap NUMBER(15,2),
+  posn_hedge_gap NUMBER(15,2),
+  posn_inflow_rate NUMBER(15,6),
+  posn_outflow_rate NUMBER(15,6),
+  posn_hedgebuy_rate NUMBER(15,6),
+  posn_hedgesell_rate NUMBER(15,6),
+  posn_exposure_rate NUMBER(15,6),
+  posn_overallhedge_rate NUMBER(15,6),
+  posn_month_order NUMBER(10),
+  posn_company_code NUMBER(8),
+  posn_import_export NUMBER(8),
+  posn_mtm_rate NUMBER(15,6),
+  posn_location_code NUMBER(8)
+);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_tables_schema_id ON "TEST_VSTSRedgate".stage_ss2k5_tables(schema_id);

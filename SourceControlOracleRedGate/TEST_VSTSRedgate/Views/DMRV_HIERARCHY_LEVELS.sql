@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_hierarchy_levels (hierarchy_id,hierarchy_name,hierarchy_ovid,level_id,level_name,level_ovid,design_ovid) AS
+select  Hierarchy_ID, Hierarchy_Name, Hierarchy_OVID, Level_ID, Level_Name, Level_OVID, Design_OVID from DMRS_HIERARCHY_LEVELS;

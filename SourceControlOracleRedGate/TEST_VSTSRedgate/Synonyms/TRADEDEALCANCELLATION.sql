@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".tradedealcancellation FOR "TEST_VSTSRedgate".trtran006;

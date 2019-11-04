@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".mask_template_name_idx ON "TEST_VSTSRedgate".dmrs_mask_templates(object_ovid,mask_template_name);

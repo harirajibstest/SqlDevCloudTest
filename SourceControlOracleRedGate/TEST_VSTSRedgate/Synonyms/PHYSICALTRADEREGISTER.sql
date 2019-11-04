@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".physicaltraderegister FOR "TEST_VSTSRedgate".trtran002;

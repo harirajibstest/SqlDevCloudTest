@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".irsmtmupload FOR "TEST_VSTSRedgate".trstaging028;

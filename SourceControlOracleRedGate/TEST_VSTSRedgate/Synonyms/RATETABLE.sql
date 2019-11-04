@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".ratetable FOR "TEST_VSTSRedgate".tfsystem009;

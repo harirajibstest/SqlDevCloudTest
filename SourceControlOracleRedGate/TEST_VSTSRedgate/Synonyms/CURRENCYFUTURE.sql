@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".currencyfuture FOR "TEST_VSTSRedgate".trtran061;

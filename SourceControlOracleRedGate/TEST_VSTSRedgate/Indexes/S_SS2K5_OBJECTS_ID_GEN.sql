@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_objects_id_gen ON "TEST_VSTSRedgate".stage_ss2k5_objects(objid_gen);

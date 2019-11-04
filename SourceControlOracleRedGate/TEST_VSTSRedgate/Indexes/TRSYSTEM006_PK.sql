@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".trsystem006_pk ON "TEST_VSTSRedgate".trsystem006(actl_company_code,actl_group_code,actl_user_id,actl_program_unit,actl_serial_number);

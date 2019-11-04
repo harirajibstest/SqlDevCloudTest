@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".diagrams_fk_idx ON "TEST_VSTSRedgate".dmrs_diagrams(model_ovid);

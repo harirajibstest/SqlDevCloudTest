@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".inflowoutflowpayments FOR "TEST_VSTSRedgate".trtran003;

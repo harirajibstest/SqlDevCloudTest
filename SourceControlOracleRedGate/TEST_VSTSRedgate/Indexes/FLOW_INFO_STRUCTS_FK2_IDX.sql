@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".flow_info_structs_fk2_idx ON "TEST_VSTSRedgate".dmrs_flow_info_structures(info_structure_ovid);

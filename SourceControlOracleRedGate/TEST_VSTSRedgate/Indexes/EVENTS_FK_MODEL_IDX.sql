@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".events_fk_model_idx ON "TEST_VSTSRedgate".dmrs_events(model_ovid);

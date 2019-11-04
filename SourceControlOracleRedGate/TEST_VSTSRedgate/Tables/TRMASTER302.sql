@@ -1,0 +1,21 @@
+CREATE TABLE "TEST_VSTSRedgate".trmaster302 (
+  locn_company_code NUMBER(8) NOT NULL,
+  locn_pick_code NUMBER(8) NOT NULL,
+  locn_short_description VARCHAR2(15 BYTE) NOT NULL,
+  locn_long_description VARCHAR2(50 BYTE) NOT NULL,
+  locn_country_code NUMBER(8) NOT NULL,
+  locn_contact_person VARCHAR2(50 BYTE),
+  locn_address_1 VARCHAR2(50 BYTE) NOT NULL,
+  locn_address_2 VARCHAR2(50 BYTE),
+  locn_address_3 VARCHAR2(50 BYTE),
+  locn_address_4 VARCHAR2(50 BYTE),
+  locn_phone_numbers VARCHAR2(200 BYTE),
+  locn_fax_numbers VARCHAR2(200 BYTE),
+  locn_email_id VARCHAR2(100 BYTE),
+  locn_unit_type NUMBER(8) NOT NULL,
+  locn_create_date DATE NOT NULL,
+  locn_add_date DATE NOT NULL,
+  locn_entry_detail XMLTYPE,
+  locn_record_status NUMBER(8) NOT NULL,
+  locn_local_currency NUMBER(8)
+);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".marketdealview FOR "TEST_VSTSRedgate".trtran031;

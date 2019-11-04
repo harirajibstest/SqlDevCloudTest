@@ -1,0 +1,21 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_tableviews (
+  tableview_name VARCHAR2(256 BYTE) NOT NULL,
+  object_id VARCHAR2(70 BYTE) NOT NULL,
+  ovid VARCHAR2(36 BYTE) NOT NULL,
+  import_id VARCHAR2(70 BYTE),
+  model_id VARCHAR2(70 BYTE) NOT NULL,
+  model_ovid VARCHAR2(36 BYTE) NOT NULL,
+  structured_type_id VARCHAR2(70 BYTE),
+  structured_type_ovid VARCHAR2(36 BYTE),
+  structured_type_name VARCHAR2(256 BYTE),
+  where_clause VARCHAR2(4000 BYTE),
+  having_clause VARCHAR2(4000 BYTE),
+  "USER_DEFINED" CHAR NOT NULL,
+  engineer CHAR,
+  allow_type_substitution CHAR,
+  oid_columns VARCHAR2(256 BYTE),
+  model_name VARCHAR2(256 BYTE),
+  schema_ovid VARCHAR2(36 BYTE),
+  schema_name VARCHAR2(256 BYTE),
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

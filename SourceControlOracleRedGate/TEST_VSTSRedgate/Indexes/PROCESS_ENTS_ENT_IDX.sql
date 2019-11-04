@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".process_ents_ent_idx ON "TEST_VSTSRedgate".dmrs_process_entities(entity_ovid);

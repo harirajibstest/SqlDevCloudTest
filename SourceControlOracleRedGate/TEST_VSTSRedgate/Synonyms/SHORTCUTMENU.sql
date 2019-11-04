@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".shortcutmenu FOR "TEST_VSTSRedgate".trsystem024;

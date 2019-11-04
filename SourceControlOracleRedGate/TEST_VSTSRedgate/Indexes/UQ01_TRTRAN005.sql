@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".uq01_trtran005 ON "TEST_VSTSRedgate".trtran005(fcln_loan_number);

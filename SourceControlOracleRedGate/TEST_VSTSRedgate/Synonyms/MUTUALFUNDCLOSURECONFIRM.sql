@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".mutualfundclosureconfirm FOR "TEST_VSTSRedgate".trtran049;

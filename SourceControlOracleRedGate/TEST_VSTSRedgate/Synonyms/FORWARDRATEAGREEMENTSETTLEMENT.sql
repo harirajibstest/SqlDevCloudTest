@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".forwardrateagreementsettlement FOR "TEST_VSTSRedgate".trtran090a;

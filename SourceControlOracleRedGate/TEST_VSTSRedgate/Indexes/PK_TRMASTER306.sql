@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".pk_trmaster306 ON "TEST_VSTSRedgate".trmaster306(lbnk_company_code,lbnk_pick_code);

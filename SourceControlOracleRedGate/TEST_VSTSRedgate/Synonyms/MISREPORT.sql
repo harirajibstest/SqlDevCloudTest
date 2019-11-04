@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".misreport FOR "TEST_VSTSRedgate".trsystem975;

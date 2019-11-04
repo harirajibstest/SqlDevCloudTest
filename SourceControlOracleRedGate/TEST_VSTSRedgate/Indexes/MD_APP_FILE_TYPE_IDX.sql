@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".md_app_file_type_idx ON "TEST_VSTSRedgate".md_applicationfiles("TYPE","ID");

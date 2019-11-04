@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".hedgedealcancellation FOR "TEST_VSTSRedgate".trtran006;

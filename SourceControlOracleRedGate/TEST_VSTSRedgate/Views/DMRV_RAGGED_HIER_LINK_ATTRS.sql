@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_ragged_hier_link_attrs (ragged_hier_link_id,ragged_hier_link_name,ragged_hier_link_ovid,attribute_id,attribute_name,attribute_ovid,design_ovid) AS
+select  Ragged_Hier_Link_ID, Ragged_Hier_Link_Name, Ragged_Hier_Link_OVID, Attribute_ID, Attribute_Name, Attribute_OVID, Design_OVID from DMRS_RAGGED_HIER_LINK_ATTRS;

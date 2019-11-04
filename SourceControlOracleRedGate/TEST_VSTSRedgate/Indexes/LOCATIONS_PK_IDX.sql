@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".locations_pk_idx ON "TEST_VSTSRedgate".dmrs_locations(location_ovid);

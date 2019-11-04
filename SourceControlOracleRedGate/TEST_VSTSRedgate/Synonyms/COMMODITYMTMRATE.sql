@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".commoditymtmrate FOR "TEST_VSTSRedgate".trtran054;

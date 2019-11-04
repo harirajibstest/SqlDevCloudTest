@@ -1,0 +1,14 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_constr_index_columns (
+  index_id VARCHAR2(70 BYTE) NOT NULL,
+  index_ovid VARCHAR2(36 BYTE) NOT NULL,
+  column_id VARCHAR2(70 BYTE) NOT NULL,
+  column_ovid VARCHAR2(36 BYTE) NOT NULL,
+  table_id VARCHAR2(70 BYTE) NOT NULL,
+  table_ovid VARCHAR2(36 BYTE) NOT NULL,
+  index_name VARCHAR2(256 BYTE) NOT NULL,
+  table_name VARCHAR2(256 BYTE) NOT NULL,
+  column_name VARCHAR2(256 BYTE) NOT NULL,
+  "SEQUENCE" NUMBER NOT NULL,
+  sort_order VARCHAR2(4 BYTE),
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".buyerscredit FOR "TEST_VSTSRedgate".trtran045;

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".tableviews_pk_idx ON "TEST_VSTSRedgate".dmrs_tableviews(ovid);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".view_columns_fk_idx ON "TEST_VSTSRedgate".dmrs_view_columns(view_ovid);

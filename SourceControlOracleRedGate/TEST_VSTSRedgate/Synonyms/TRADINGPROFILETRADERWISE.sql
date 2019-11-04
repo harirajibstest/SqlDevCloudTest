@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".tradingprofiletraderwise FOR "TEST_VSTSRedgate".vewcanceldeals;

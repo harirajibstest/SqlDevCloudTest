@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_data_flow_diagram_infos (diagram_id,diagram_ovid,diagram_name,info_store_id,info_store_ovid,info_store_name,design_ovid) AS
+select  Diagram_ID, Diagram_OVID, Diagram_Name, Info_Store_ID, Info_Store_OVID, Info_Store_Name, Design_OVID from DMRS_DATA_FLOW_DIAGRAM_INFOS;

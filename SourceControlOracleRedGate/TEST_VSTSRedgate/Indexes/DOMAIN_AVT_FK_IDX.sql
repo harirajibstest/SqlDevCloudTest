@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".domain_avt_fk_idx ON "TEST_VSTSRedgate".dmrs_domain_avt(domain_ovid);

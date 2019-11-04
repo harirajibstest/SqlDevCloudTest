@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".effectivecostingrate FOR "TEST_VSTSRedgate".effectiverate;

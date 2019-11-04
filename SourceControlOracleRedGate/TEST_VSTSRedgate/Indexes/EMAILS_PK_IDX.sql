@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".emails_pk_idx ON "TEST_VSTSRedgate".dmrs_emails(email_ovid);

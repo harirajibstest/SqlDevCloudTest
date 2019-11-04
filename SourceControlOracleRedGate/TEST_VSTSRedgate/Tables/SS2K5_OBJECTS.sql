@@ -1,0 +1,10 @@
+CREATE GLOBAL TEMPORARY TABLE "TEST_VSTSRedgate".ss2k5_objects (
+  db_id NUMBER(10),
+  schema_id NUMBER(10) NOT NULL,
+  object_id NUMBER(10) NOT NULL,
+  "NAME" VARCHAR2(256 BYTE) NOT NULL,
+  "TYPE" CHAR(2 BYTE) NOT NULL,
+  parent_object_id NUMBER(10) NOT NULL,
+  is_ms_shipped NUMBER(1) NOT NULL
+)
+ON COMMIT PRESERVE ROWS;

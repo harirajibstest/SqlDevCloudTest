@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_domain_value_ranges (domain_id,domain_ovid,"SEQUENCE",begin_value,end_value,short_description,domain_name,design_ovid) AS
+select  Domain_ID, Domain_OVID, Sequence, Begin_Value, End_Value, Short_Description, Domain_Name, Design_OVID from DMRS_DOMAIN_VALUE_RANGES;

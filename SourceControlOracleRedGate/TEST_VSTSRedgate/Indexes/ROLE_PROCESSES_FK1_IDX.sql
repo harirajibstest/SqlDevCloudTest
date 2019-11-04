@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".role_processes_fk1_idx ON "TEST_VSTSRedgate".dmrs_role_processes(role_ovid);

@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_keys (key_name,object_id,ovid,import_id,container_id,container_ovid,"STATE",synonyms,entity_name,design_ovid) AS
+select  Key_Name, Object_ID, OVID, Import_ID, Container_ID, Container_OVID, State, Synonyms, Entity_Name, Design_OVID from DMRS_KEYS;

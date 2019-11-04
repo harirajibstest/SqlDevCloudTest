@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".hierarchy_levels_fk2_idx ON "TEST_VSTSRedgate".dmrs_hierarchy_levels(level_ovid);

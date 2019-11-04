@@ -1,0 +1,21 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_slices (
+  slice_id VARCHAR2(70 BYTE) NOT NULL,
+  slice_name VARCHAR2(256 BYTE) NOT NULL,
+  slice_ovid VARCHAR2(36 BYTE) NOT NULL,
+  model_id VARCHAR2(70 BYTE) NOT NULL,
+  model_name VARCHAR2(256 BYTE) NOT NULL,
+  model_ovid VARCHAR2(36 BYTE) NOT NULL,
+  cube_id VARCHAR2(70 BYTE),
+  cube_name VARCHAR2(256 BYTE),
+  cube_ovid VARCHAR2(36 BYTE),
+  entity_id VARCHAR2(70 BYTE),
+  entity_name VARCHAR2(256 BYTE),
+  entity_ovid VARCHAR2(36 BYTE),
+  oracle_long_name VARCHAR2(2000 BYTE),
+  oracle_plural_name VARCHAR2(2000 BYTE),
+  oracle_short_name VARCHAR2(2000 BYTE),
+  is_fully_realized CHAR,
+  is_read_only CHAR,
+  description VARCHAR2(4000 BYTE),
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

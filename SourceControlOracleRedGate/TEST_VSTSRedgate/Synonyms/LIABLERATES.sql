@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".liablerates FOR "TEST_VSTSRedgate".trsystem017;

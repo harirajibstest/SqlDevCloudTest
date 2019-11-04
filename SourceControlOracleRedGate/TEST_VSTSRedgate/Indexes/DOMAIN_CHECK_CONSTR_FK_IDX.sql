@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".domain_check_constr_fk_idx ON "TEST_VSTSRedgate".dmrs_domain_check_constraints(domain_ovid);

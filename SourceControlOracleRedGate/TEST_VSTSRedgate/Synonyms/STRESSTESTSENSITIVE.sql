@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".stresstestsensitive FOR "TEST_VSTSRedgate".trsystem060;

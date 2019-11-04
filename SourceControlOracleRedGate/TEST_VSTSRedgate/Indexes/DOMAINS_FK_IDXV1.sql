@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".domains_fk_idxv1 ON "TEST_VSTSRedgate".dmrs_domains(logical_type_ovid);

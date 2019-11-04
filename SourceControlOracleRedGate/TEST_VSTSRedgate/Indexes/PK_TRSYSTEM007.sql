@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".pk_trsystem007 ON "TEST_VSTSRedgate".trsystem007(serl_company_code,serl_serial_code);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".entityviews_fk_idx ON "TEST_VSTSRedgate".dmrs_entityviews(model_ovid);

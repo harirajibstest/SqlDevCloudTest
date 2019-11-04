@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".ccirssettlement FOR "TEST_VSTSRedgate".trtran091f;

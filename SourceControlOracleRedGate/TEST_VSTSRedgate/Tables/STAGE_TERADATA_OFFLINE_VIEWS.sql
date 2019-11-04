@@ -1,0 +1,12 @@
+CREATE GLOBAL TEMPORARY TABLE "TEST_VSTSRedgate".stage_teradata_offline_views (
+  "INDEX" NUMBER,
+  dbname VARCHAR2(256 BYTE),
+  viewname VARCHAR2(256 BYTE),
+  colname VARCHAR2(256 BYTE),
+  typename CHAR(2 BYTE),
+  "LENGTH" NUMBER,
+  "SCALE" NUMBER,
+  "NULLS" CHAR,
+  defaultval VARCHAR2(2048 BYTE)
+)
+ON COMMIT PRESERVE ROWS;

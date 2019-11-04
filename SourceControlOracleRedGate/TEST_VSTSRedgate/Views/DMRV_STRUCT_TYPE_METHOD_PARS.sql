@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_struct_type_method_pars (parameter_id,parameter_ovid,parameter_name,method_id,method_ovid,method_name,return_value,"REFERENCE",seq,t_size,t_precision,t_scale,type_id,type_ovid,type_name,design_ovid) AS
+SELECT  Parameter_ID, Parameter_OVID, Parameter_Name, Method_ID, Method_OVID, Method_Name, Return_Value, Reference, Seq, T_Size, T_Precision, T_Scale, Type_ID, Type_OVID, Type_Name, Design_OVID FROM DMRS_STRUCT_TYPE_METHOD_PARS;

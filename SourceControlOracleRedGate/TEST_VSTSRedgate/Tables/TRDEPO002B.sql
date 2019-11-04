@@ -1,0 +1,21 @@
+CREATE TABLE "TEST_VSTSRedgate".trdepo002b (
+  int_company_code NUMBER(8),
+  int_counter_party NUMBER(8),
+  int_plan_code NUMBER(8),
+  int_plan_shortdesc VARCHAR2(10 BYTE),
+  int_plan_longdesc VARCHAR2(50 BYTE),
+  int_currency_code NUMBER(8),
+  int_effective_date DATE,
+  int_interest_type NUMBER(8),
+  int_compound_type NUMBER(8),
+  int_holyday_period NUMBER(5),
+  int_record_status NUMBER(8),
+  int_entry_detail XMLTYPE,
+  int_create_date DATE,
+  int_add_date DATE,
+  int_cal_basedon NUMBER(8),
+  int_preclosure_penality NUMBER(8),
+  int_rounding_to NUMBER(8),
+  int_rounding_factor NUMBER(8),
+  int_preclosure_penalty NUMBER(6,2)
+);

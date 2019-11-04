@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".record_structs_fk_model_idx ON "TEST_VSTSRedgate".dmrs_record_structures(model_ovid);

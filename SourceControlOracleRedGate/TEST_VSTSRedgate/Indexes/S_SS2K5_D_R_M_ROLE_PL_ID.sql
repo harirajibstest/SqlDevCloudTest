@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_d_r_m_role_pl_id ON "TEST_VSTSRedgate".stage_ss2k5_db_role_members(role_principal_id);

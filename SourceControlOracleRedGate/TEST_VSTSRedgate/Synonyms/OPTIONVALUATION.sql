@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".optionvaluation FOR "TEST_VSTSRedgate".trstaging011a;

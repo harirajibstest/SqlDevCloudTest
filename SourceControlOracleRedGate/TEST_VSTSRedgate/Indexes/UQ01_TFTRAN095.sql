@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".uq01_tftran095 ON "TEST_VSTSRedgate".trtran095(cirs_deal_number,cirs_serial_number);

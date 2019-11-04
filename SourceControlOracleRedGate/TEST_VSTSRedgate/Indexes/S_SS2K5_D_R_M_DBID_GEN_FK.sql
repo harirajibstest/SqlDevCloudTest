@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_d_r_m_dbid_gen_fk ON "TEST_VSTSRedgate".stage_ss2k5_db_role_members(dbid_gen_fk);

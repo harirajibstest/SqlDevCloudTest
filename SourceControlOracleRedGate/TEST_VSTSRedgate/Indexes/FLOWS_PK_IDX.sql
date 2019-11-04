@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".flows_pk_idx ON "TEST_VSTSRedgate".dmrs_flows(flow_ovid);

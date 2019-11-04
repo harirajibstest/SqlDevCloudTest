@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ss2k5_columns_objid ON "TEST_VSTSRedgate".ss2k5_columns(object_id,column_id);

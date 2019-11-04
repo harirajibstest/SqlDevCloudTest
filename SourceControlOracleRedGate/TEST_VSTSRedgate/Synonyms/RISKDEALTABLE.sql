@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".riskdealtable FOR "TEST_VSTSRedgate".trtran011;

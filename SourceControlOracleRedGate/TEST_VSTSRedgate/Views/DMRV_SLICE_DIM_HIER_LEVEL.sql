@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_slice_dim_hier_level (slice_id,slice_name,slice_ovid,dimension_id,dimension_name,dimension_ovid,hierarchy_id,hierarchy_name,hierarchy_ovid,level_id,level_name,level_ovid,design_ovid) AS
+select  Slice_ID, Slice_Name, Slice_OVID, Dimension_ID, Dimension_Name, Dimension_OVID, Hierarchy_ID, Hierarchy_Name, Hierarchy_OVID, Level_ID, Level_Name, Level_OVID, Design_OVID from DMRS_SLICE_DIM_HIER_LEVEL;

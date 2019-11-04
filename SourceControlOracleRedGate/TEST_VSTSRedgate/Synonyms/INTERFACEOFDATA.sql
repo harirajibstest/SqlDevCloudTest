@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".interfaceofdata FOR "TEST_VSTSRedgate".trtran008h;

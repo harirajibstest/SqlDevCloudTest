@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".glossary_terms_fk_idx ON "TEST_VSTSRedgate".dmrs_glossary_terms(glossary_ovid);

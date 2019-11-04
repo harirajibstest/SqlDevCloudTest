@@ -1,0 +1,21 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran002b (
+  udel_company_code NUMBER(8) NOT NULL,
+  udel_effective_date DATE NOT NULL,
+  udel_aandl_code NUMBER(8) NOT NULL,
+  udel_link_batch NUMBER(5) NOT NULL,
+  udel_serial_number NUMBER(2) NOT NULL,
+  udel_link_cancel DATE,
+  udel_deal_number VARCHAR2(25 BYTE),
+  udel_trade_reference VARCHAR2(25 BYTE),
+  udel_spot_rate NUMBER(15,6),
+  udel_forward_rate NUMBER(15,6),
+  udel_margin_rate NUMBER(15,6),
+  udel_exchange_rate NUMBER(15,6),
+  udel_deal_amount NUMBER(15,2),
+  udel_trade_amount NUMBER(15,2),
+  udel_pandl_inr NUMBER(15,2),
+  udel_create_date DATE NOT NULL,
+  udel_entry_detail XMLTYPE,
+  udel_record_status NUMBER(8),
+  CONSTRAINT pk_trtran002b PRIMARY KEY (udel_link_batch,udel_serial_number)
+);

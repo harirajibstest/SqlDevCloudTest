@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bulkconfirmations FOR "TEST_VSTSRedgate".bulkconfirmation;

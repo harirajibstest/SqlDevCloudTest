@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".hierarchy_rollup_links_fk1_idx ON "TEST_VSTSRedgate".dmrs_hierarchy_rollup_links(hierarchy_ovid);

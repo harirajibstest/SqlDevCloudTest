@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".model_subviews_fk_idx ON "TEST_VSTSRedgate".dmrs_model_subviews(model_ovid);

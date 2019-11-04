@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".structured_types_pk_idx ON "TEST_VSTSRedgate".dmrs_structured_types(structured_type_ovid);

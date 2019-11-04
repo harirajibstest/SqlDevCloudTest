@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".optionhedgeexercise FOR "TEST_VSTSRedgate".trtran073;

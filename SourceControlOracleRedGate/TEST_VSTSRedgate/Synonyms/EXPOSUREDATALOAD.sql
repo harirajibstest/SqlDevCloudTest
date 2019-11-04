@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".exposuredataload FOR "TEST_VSTSRedgate".trstaging016;

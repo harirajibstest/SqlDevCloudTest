@@ -1,0 +1,22 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran093a (
+  irol_deal_number VARCHAR2(25 BYTE) NOT NULL,
+  irol_serial_number NUMBER(5) NOT NULL,
+  irol_option_type NUMBER(8),
+  irol_buy_sell NUMBER(8),
+  irol_strike_rate NUMBER(15,6),
+  irol_spread_rate NUMBER(15,6),
+  irol_base_amount NUMBER(15,2),
+  irol_init_type NUMBER(8),
+  irol_interest_startdate DATE,
+  irol_reset_frequency NUMBER(8),
+  irol_delivery_type NUMBER(8),
+  irol_action_taken NUMBER(8),
+  irol_process_complete NUMBER(8),
+  irol_complete_date DATE,
+  irol_lot_numbers NUMBER(15) NOT NULL,
+  irol_lot_quantity NUMBER(15,2) NOT NULL,
+  irol_record_status NUMBER(8),
+  irol_create_date DATE,
+  irol_add_date DATE,
+  CONSTRAINT trtran093a_pk PRIMARY KEY (irol_deal_number,irol_serial_number)
+);

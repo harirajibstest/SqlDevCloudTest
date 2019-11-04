@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ss2k5_indexes_object_id ON "TEST_VSTSRedgate".ss2k5_indexes(object_id);

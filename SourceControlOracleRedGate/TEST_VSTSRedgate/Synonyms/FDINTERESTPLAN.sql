@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".fdinterestplan FOR "TEST_VSTSRedgate".trmaster405;

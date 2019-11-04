@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bloomburgfxgo FOR "TEST_VSTSRedgate".trstaging011b;

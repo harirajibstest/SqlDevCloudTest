@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran002g (
+  ispi_company_code NUMBER(8) NOT NULL,
+  ispi_trade_reference VARCHAR2(25 BYTE) NOT NULL,
+  ispi_import_export NUMBER(8) NOT NULL,
+  ispi_entry_date DATE NOT NULL,
+  ispi_user_reference VARCHAR2(1000 BYTE),
+  ispi_reference_date DATE,
+  ispi_product_code NUMBER(8),
+  ispi_product_description VARCHAR2(200 BYTE),
+  ispi_trade_fcy NUMBER(15,2) NOT NULL,
+  ispi_trade_rate NUMBER(15,6) NOT NULL,
+  ispi_trade_inr NUMBER(15,2) NOT NULL,
+  ispi_period_code NUMBER(8),
+  ispi_trade_period NUMBER(5),
+  ispi_maturity_date DATE,
+  ispi_create_date DATE NOT NULL,
+  ispi_entry_detail XMLTYPE,
+  ispi_record_status NUMBER(8) NOT NULL,
+  ispi_contract_no VARCHAR2(50 BYTE),
+  ispi_product_quantity NUMBER(15,3),
+  ispi_product_rate NUMBER(15,4),
+  CONSTRAINT pk_trtran002g PRIMARY KEY (ispi_company_code,ispi_trade_reference)
+);

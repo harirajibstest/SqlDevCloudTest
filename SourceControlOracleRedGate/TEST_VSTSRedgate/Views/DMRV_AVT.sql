@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_avt (dataelement_id,dataelement_ovid,"TYPE","SEQUENCE","VALUE",short_description,container_id,container_ovid,container_name,dataelement_name,design_ovid) AS
+select  DataElement_ID, DataElement_OVID, Type, Sequence, Value, Short_Description, Container_ID, Container_OVID, Container_Name, DataElement_Name, Design_OVID from DMRS_AVT;

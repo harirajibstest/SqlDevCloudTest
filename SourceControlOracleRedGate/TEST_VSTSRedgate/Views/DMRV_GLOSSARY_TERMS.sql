@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_glossary_terms (term_id,term_ovid,term_name,short_description,abbrev,alt_abbrev,prime_word,class_word,modifier,qualifier,glossary_id,glossary_ovid,glossary_name) AS
+select  Term_ID, Term_OVID, Term_Name, Short_Description, Abbrev, Alt_Abbrev, Prime_Word, Class_Word, Modifier, Qualifier, Glossary_ID, Glossary_OVID, Glossary_Name from DMRS_GLOSSARY_TERMS;

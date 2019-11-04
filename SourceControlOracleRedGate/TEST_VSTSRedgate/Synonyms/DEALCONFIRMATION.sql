@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".dealconfirmation FOR "TEST_VSTSRedgate".trtran001;

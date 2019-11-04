@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ext_agent_flows_fk2_idx ON "TEST_VSTSRedgate".dmrs_ext_agent_flows(flow_ovid);

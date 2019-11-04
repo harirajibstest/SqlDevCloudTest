@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trmaster504 (
+  cwrh_company_code NUMBER(8) NOT NULL,
+  cwrh_pick_code NUMBER(8) NOT NULL,
+  cwrh_short_description VARCHAR2(15 BYTE) NOT NULL,
+  cwrh_long_description VARCHAR2(50 BYTE) NOT NULL,
+  cwrh_contact_person VARCHAR2(50 BYTE),
+  cwrh_address_1 VARCHAR2(50 BYTE) NOT NULL,
+  cwrh_address_2 VARCHAR2(50 BYTE),
+  cwrh_address_3 VARCHAR2(50 BYTE),
+  cwrh_address_4 VARCHAR2(50 BYTE),
+  cwrh_phone_numbers VARCHAR2(200 BYTE),
+  cwrh_fax_numbers VARCHAR2(200 BYTE),
+  cwrh_website_url VARCHAR2(100 BYTE),
+  cwrh_email_id VARCHAR2(100 BYTE),
+  cwrh_exchange_codes VARCHAR2(200 BYTE) NOT NULL,
+  cwrh_create_date DATE NOT NULL,
+  cwrh_add_date DATE NOT NULL,
+  cwrh_entry_detail XMLTYPE,
+  cwrh_record_status NUMBER(8) NOT NULL
+);

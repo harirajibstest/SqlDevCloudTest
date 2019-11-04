@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_ragged_hier_links (ragged_hier_link_id,ragged_hier_link_name,ragged_hier_link_ovid,model_id,model_name,model_ovid,parent_level_id,parent_level_name,parent_level_ovid,child_level_id,child_level_name,child_level_ovid,description,design_ovid) AS
+select  Ragged_Hier_Link_ID, Ragged_Hier_Link_Name, Ragged_Hier_Link_OVID, Model_ID, Model_Name, Model_OVID, Parent_Level_ID, Parent_Level_Name, Parent_Level_OVID, Child_Level_ID, Child_Level_Name, Child_Level_OVID, Description, Design_OVID from DMRS_RAGGED_HIER_LINKS;

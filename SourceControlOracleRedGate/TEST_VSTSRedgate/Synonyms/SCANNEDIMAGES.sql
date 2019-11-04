@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".scannedimages FOR "TEST_VSTSRedgate".tftran101;

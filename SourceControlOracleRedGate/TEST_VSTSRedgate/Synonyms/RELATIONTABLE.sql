@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".relationtable FOR "TEST_VSTSRedgate".trsystem008;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".mutualfundscheme FOR "TEST_VSTSRedgate".trmaster404;

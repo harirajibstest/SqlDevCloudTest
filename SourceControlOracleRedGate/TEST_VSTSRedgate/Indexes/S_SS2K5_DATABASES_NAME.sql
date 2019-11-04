@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_databases_name ON "TEST_VSTSRedgate".stage_ss2k5_databases("NAME");

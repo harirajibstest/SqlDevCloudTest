@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".securitypolicymaster FOR "TEST_VSTSRedgate".trsystem021;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".remindermaster FOR "TEST_VSTSRedgate".trsystem013;

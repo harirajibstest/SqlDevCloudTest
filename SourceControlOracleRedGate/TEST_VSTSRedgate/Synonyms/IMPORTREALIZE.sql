@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".importrealize FOR "TEST_VSTSRedgate".trtran003;

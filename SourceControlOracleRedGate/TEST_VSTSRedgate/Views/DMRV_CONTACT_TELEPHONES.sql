@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_contact_telephones (contact_id,contact_ovid,contact_name,telephone_id,telephone_ovid,telephone_name,design_ovid) AS
+select  Contact_ID, Contact_OVID, Contact_Name, Telephone_ID, Telephone_OVID, Telephone_Name, Design_OVID from DMRS_CONTACT_TELEPHONES;

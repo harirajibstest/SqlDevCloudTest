@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".optionmtmrates FOR "TEST_VSTSRedgate".trtran078;

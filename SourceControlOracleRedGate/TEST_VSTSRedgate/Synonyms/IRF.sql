@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".irf FOR "TEST_VSTSRedgate".trtran092;

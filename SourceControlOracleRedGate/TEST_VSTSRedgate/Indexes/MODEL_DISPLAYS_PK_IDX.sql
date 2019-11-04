@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".model_displays_pk_idx ON "TEST_VSTSRedgate".dmrs_model_displays(display_ovid);

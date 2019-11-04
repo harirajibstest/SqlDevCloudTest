@@ -1,0 +1,11 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_table_constraints (
+  table_id VARCHAR2(70 BYTE) NOT NULL,
+  table_ovid VARCHAR2(36 BYTE) NOT NULL,
+  "SEQUENCE" NUMBER NOT NULL,
+  constraint_id VARCHAR2(70 BYTE) NOT NULL,
+  constraint_ovid VARCHAR2(36 BYTE) NOT NULL,
+  constraint_name VARCHAR2(256 BYTE) NOT NULL,
+  "TEXT" VARCHAR2(4000 BYTE) NOT NULL,
+  table_name VARCHAR2(256 BYTE) NOT NULL,
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

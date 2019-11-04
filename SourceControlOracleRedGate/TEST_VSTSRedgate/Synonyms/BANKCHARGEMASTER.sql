@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bankchargemaster FOR "TEST_VSTSRedgate".trtran015d;

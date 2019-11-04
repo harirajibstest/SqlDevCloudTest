@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".importtraderegisterdetail FOR "TEST_VSTSRedgate".trtran002;

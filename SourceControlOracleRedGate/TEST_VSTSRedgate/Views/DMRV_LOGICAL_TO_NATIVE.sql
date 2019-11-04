@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_logical_to_native (design_id,design_ovid,design_name,logical_type_id,logical_type_ovid,lt_name,native_type,rdbms_type,rdbms_version,has_size,has_precision,has_scale) AS
+select  Design_ID, Design_OVID, Design_Name, Logical_Type_ID, Logical_Type_OVID, LT_Name, Native_Type, RDBMS_Type, RDBMS_Version, Has_Size, Has_Precision, Has_Scale from DMRS_LOGICAL_TO_NATIVE;

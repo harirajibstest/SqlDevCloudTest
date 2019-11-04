@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trsystem022_backup (
+  user_company_code NUMBER(8) NOT NULL,
+  user_user_id VARCHAR2(50 BYTE) NOT NULL,
+  user_serial_number NUMBER(5) NOT NULL,
+  user_user_name VARCHAR2(100 BYTE) NOT NULL,
+  user_user_designation VARCHAR2(50 BYTE),
+  user_level_code NUMBER(8) NOT NULL,
+  user_group_code NUMBER(8) NOT NULL,
+  user_create_remarks VARCHAR2(200 BYTE),
+  user_terminal_id VARCHAR2(30 BYTE),
+  user_status_code NUMBER(8) NOT NULL,
+  user_last_login DATE,
+  user_login_attempts NUMBER(2),
+  user_create_date DATE NOT NULL,
+  user_add_date DATE NOT NULL,
+  user_entry_detail XMLTYPE,
+  user_record_status NUMBER(8) NOT NULL,
+  user_email_id VARCHAR2(256 BYTE),
+  user_mobile_phone VARCHAR2(11 BYTE),
+  user_deal_yn NUMBER(8),
+  user_nodeal_date DATE,
+  user_format_code NUMBER(8)
+);

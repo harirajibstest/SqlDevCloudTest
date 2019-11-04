@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".forwardcontract FOR "TEST_VSTSRedgate".trstaging015;

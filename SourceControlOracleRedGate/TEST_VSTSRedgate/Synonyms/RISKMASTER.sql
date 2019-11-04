@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".riskmaster FOR "TEST_VSTSRedgate".trsystem012;

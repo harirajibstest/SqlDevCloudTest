@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_structured_types (design_id,design_ovid,design_name,model_ovid,model_name,structured_type_id,structured_type_ovid,structured_type_name,super_type_id,super_type_ovid,super_type_name,predefined,st_final,st_instantiable) AS
+select  Design_ID, Design_OVID, Design_Name, Model_OVID, Model_Name, Structured_Type_ID, Structured_Type_OVID, Structured_Type_Name, Super_Type_ID, Super_Type_OVID, Super_Type_Name, Predefined, ST_Final, ST_Instantiable from DMRS_STRUCTURED_TYPES;

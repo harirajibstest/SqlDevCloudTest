@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".pk_trsystem024 ON "TEST_VSTSRedgate".trsystem024(shrt_user_id);

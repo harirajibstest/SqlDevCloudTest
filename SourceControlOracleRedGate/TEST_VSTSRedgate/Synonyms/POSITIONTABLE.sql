@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".positiontable FOR "TEST_VSTSRedgate".trsystem997;

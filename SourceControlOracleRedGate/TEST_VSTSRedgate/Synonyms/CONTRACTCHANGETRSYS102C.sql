@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".contractchangetrsys102c FOR "TEST_VSTSRedgate".trsystem102c;

@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_mapping_target_sources (object_id,object_ovid,object_name,target_id,target_ovid,target_name,source_id,source_ovid,source_name,object_type,target_type,source_type,design_ovid) AS
+select  Object_ID, Object_OVID, Object_Name, Target_ID, Target_OVID, Target_Name, Source_ID, Source_OVID, Source_Name, Object_Type, Target_Type, Source_Type, Design_OVID from DMRS_MAPPING_TARGET_SOURCES;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".branchmaster FOR "TEST_VSTSRedgate".trmaster306a;

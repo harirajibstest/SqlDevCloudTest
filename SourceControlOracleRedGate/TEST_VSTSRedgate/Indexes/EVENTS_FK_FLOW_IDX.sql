@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".events_fk_flow_idx ON "TEST_VSTSRedgate".dmrs_events(flow_ovid);

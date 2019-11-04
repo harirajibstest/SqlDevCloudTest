@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_slices (slice_id,slice_name,slice_ovid,model_id,model_name,model_ovid,cube_id,cube_name,cube_ovid,entity_id,entity_name,entity_ovid,oracle_long_name,oracle_plural_name,oracle_short_name,is_fully_realized,is_read_only,description,design_ovid) AS
+select  Slice_ID, Slice_Name, Slice_OVID, Model_ID, Model_Name, Model_OVID, Cube_ID, Cube_Name, Cube_OVID, Entity_ID, Entity_Name, Entity_OVID, Oracle_Long_Name, Oracle_Plural_Name, Oracle_Short_Name, Is_Fully_Realized, Is_Read_Only, Description, Design_OVID from DMRS_SLICES;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".currencyfuturebroker FOR "TEST_VSTSRedgate".trmaster502;

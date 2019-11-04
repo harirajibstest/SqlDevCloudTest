@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_flow_info_structures (flow_id,flow_ovid,flow_name,info_structure_id,info_structure_ovid,info_structure_name,design_ovid) AS
+select  Flow_ID, Flow_OVID, Flow_Name, Info_Structure_ID, Info_Structure_OVID, Info_Structure_Name, Design_OVID from DMRS_FLOW_INFO_STRUCTURES;

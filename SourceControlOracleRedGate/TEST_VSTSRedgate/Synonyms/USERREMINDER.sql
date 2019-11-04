@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".userreminder FOR "TEST_VSTSRedgate".trsystem014;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".interestrate FOR "TEST_VSTSRedgate".trtran042;

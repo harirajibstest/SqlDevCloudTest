@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".commodityproduct FOR "TEST_VSTSRedgate".trmaster503;

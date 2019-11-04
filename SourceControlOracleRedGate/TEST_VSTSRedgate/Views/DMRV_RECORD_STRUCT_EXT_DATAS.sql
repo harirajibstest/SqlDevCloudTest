@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_record_struct_ext_datas (record_structure_id,record_structure_ovid,record_structure_name,external_data_id,external_data_ovid,external_data_name,design_ovid) AS
+select  Record_Structure_ID, Record_Structure_OVID, Record_Structure_Name, External_Data_ID, External_Data_OVID, External_Data_Name, Design_OVID from DMRS_RECORD_STRUCT_EXT_DATAS;

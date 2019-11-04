@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".edelweisstradeconfirmation FOR "TEST_VSTSRedgate".trstaging011;

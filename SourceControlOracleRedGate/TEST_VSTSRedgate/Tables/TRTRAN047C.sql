@@ -1,0 +1,22 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran047c (
+  tdsc_company_code NUMBER(8),
+  tdsc_location_code NUMBER(8),
+  tdsc_counter_party NUMBER(8),
+  tdsc_currency_code NUMBER(8),
+  tdsc_scheme_code NUMBER(8),
+  tdsc_fd_number VARCHAR2(25 BYTE),
+  tdsc_fd_srnumber NUMBER(4),
+  tdsc_deducted_date DATE,
+  tdsc_fdopen_date DATE,
+  tdsc_principal_amt NUMBER(15,2),
+  tdsc_int_amount NUMBER(15,2),
+  tdsc_tds_amount NUMBER(15,2),
+  tdsc_sercharge_amount NUMBER(15,2),
+  tdsc_transaction_type NUMBER(8),
+  tdsc_financial_year VARCHAR2(9 BYTE),
+  tdsc_add_date DATE,
+  tdsc_entry_detail XMLTYPE,
+  tdsc_record_status NUMBER(8),
+  tdsc_create_date DATE,
+  tdsc_tds_adjustment NUMBER(15,2)
+);

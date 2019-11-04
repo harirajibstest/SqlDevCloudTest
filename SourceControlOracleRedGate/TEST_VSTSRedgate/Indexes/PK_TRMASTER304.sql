@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".pk_trmaster304 ON "TEST_VSTSRedgate".trmaster304(cncy_company_code,cncy_pick_code);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bankchargelinking FOR "TEST_VSTSRedgate".trtran015e;

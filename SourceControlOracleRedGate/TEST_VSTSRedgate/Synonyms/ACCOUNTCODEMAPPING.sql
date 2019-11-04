@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".accountcodemapping FOR "TEST_VSTSRedgate".trtran008f;

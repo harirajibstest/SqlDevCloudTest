@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".dynamicreport FOR "TEST_VSTSRedgate".trreporttemp;

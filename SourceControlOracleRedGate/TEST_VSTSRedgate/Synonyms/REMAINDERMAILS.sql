@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".remaindermails FOR "TEST_VSTSRedgate".trsystem013a;

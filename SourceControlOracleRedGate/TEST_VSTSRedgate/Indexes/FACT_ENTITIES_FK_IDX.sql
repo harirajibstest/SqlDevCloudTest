@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".fact_entities_fk_idx ON "TEST_VSTSRedgate".dmrs_fact_entities(cube_ovid);

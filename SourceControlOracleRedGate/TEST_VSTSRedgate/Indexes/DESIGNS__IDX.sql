@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".designs__idx ON "TEST_VSTSRedgate".dmrs_designs(design_id,design_ovid,design_name,version_comments,date_published);

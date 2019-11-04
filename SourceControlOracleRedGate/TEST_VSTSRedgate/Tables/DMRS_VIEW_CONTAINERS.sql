@@ -1,0 +1,15 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_view_containers (
+  view_ovid VARCHAR2(36 BYTE) NOT NULL,
+  view_id VARCHAR2(70 BYTE) NOT NULL,
+  view_name VARCHAR2(256 BYTE) NOT NULL,
+  container_id VARCHAR2(70 BYTE) NOT NULL,
+  container_ovid VARCHAR2(36 BYTE) NOT NULL,
+  container_name VARCHAR2(256 BYTE) NOT NULL,
+  "TYPE" CHAR NOT NULL,
+  "ALIAS" VARCHAR2(256 BYTE),
+  "SEQUENCE" NUMBER(3) NOT NULL,
+  model_id VARCHAR2(70 BYTE) NOT NULL,
+  model_ovid VARCHAR2(36 BYTE) NOT NULL,
+  model_name VARCHAR2(256 BYTE) NOT NULL,
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

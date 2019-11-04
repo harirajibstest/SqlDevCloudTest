@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".datauploadmaster FOR "TEST_VSTSRedgate".dataupload;

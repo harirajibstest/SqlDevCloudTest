@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".existence_dep_col_name_idx ON "TEST_VSTSRedgate".dmrs_existence_dep_columns(dependency_ovid,table_ovid);

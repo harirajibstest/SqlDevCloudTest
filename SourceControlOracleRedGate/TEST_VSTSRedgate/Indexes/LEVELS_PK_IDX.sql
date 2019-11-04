@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".levels_pk_idx ON "TEST_VSTSRedgate".dmrs_levels(level_ovid);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".marketdealborrowing FOR "TEST_VSTSRedgate".trtran031a;

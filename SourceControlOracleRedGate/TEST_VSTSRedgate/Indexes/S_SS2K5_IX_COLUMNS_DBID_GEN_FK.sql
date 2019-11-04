@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_ix_columns_dbid_gen_fk ON "TEST_VSTSRedgate".stage_ss2k5_index_columns(dbid_gen_fk);

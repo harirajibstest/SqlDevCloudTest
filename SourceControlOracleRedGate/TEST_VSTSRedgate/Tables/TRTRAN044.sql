@@ -1,0 +1,22 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran044 (
+  purc_product_code NUMBER(8),
+  purc_product_quantity NUMBER(15,2),
+  purc_serial_number NUMBER(9),
+  purc_vessel NUMBER(8),
+  purc_voyage VARCHAR2(25 BYTE),
+  purc_party NUMBER(8),
+  purc_bill_date VARCHAR2(25 BYTE),
+  purc_contract_no VARCHAR2(25 BYTE),
+  purc_rounded_quantity NUMBER(15,2),
+  purc_term NUMBER(8),
+  purc_product_rate NUMBER(12,4),
+  purc_benificiary NUMBER(8),
+  purc_load_port NUMBER(8),
+  purc_company_code NUMBER(8),
+  purc_execute_date DATE,
+  purc_record_status NUMBER(8),
+  purc_create_date DATE,
+  purc_entry_detail XMLTYPE,
+  purc_purchase_number VARCHAR2(50 BYTE),
+  purc_contract_date DATE
+);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".distinct_types_pk_idx ON "TEST_VSTSRedgate".dmrs_distinct_types(distinct_type_ovid);

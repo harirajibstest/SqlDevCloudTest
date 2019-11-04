@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".domain_value_ranges_fk_idx ON "TEST_VSTSRedgate".dmrs_domain_value_ranges(domain_ovid);

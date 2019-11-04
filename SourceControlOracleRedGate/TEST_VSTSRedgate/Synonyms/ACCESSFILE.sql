@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".accessfile FOR "TEST_VSTSRedgate".trsystem006;

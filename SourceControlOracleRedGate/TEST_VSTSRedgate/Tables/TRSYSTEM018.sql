@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trsystem018 (
+  crpm_company_code NUMBER(8) NOT NULL,
+  crpm_crsk_type NUMBER(8) NOT NULL,
+  crpm_effective_date DATE NOT NULL,
+  crpm_hedge_trade NUMBER(8) NOT NULL,
+  crpm_buy_sell NUMBER(8) NOT NULL,
+  crpm_deal_type NUMBER(8) NOT NULL,
+  crpm_counter_party NUMBER(8) NOT NULL,
+  crpm_product_code NUMBER(8) NOT NULL,
+  crpm_dealer_id NUMBER(8) NOT NULL,
+  crpm_gross_net NUMBER(8) NOT NULL,
+  crpm_fluct_allowed NUMBER(8) NOT NULL,
+  crpm_fluct_ceo NUMBER(8) NOT NULL,
+  crpm_create_date DATE NOT NULL,
+  crpm_add_date DATE NOT NULL,
+  crpm_entry_detail XMLTYPE,
+  crpm_record_status NUMBER(8) NOT NULL,
+  crpm_exchange_code NUMBER(8),
+  CONSTRAINT pk_trsystem018 PRIMARY KEY (crpm_company_code,crpm_crsk_type,crpm_effective_date)
+);

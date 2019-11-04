@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".fdinterestcharging FOR "TEST_VSTSRedgate".trtran047b;

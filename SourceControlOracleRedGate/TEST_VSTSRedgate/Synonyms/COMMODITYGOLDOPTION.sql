@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".commoditygoldoption FOR "TEST_VSTSRedgate".trtran056;

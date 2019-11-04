@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".spatial_col_definition_pk_idx ON "TEST_VSTSRedgate".dmrs_spatial_column_definition(definition_ovid);

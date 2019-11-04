@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".commoditybroker FOR "TEST_VSTSRedgate".trmaster502;

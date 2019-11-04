@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".forwardcontreport FOR "TEST_VSTSRedgate".trsystem986;

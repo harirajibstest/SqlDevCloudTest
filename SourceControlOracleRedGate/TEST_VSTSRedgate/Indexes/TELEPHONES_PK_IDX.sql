@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".telephones_pk_idx ON "TEST_VSTSRedgate".dmrs_telephones(telephone_ovid);

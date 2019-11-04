@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".trsystem013_pk ON "TEST_VSTSRedgate".trsystem013(remp_reminder_code,remp_report_id,remp_serial_number);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_t_p_table_name ON "TEST_VSTSRedgate".stage_ss2k5_table_privileges(table_name);

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_foreign_keys_object_id ON "TEST_VSTSRedgate".stage_ss2k5_fn_keys(object_id);

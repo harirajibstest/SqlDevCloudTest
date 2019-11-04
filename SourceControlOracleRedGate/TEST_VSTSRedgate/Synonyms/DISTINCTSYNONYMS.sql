@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".distinctsynonyms FOR "TEST_VSTSRedgate".trsystem999;

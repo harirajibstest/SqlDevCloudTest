@@ -1,0 +1,3 @@
+CREATE TABLE "TEST_VSTSRedgate".temp2 (
+  tt VARCHAR2(4000 BYTE)
+);

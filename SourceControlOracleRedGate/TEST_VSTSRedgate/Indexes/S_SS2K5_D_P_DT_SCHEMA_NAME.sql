@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_d_p_dt_schema_name ON "TEST_VSTSRedgate".stage_ss2k5_db_principals(default_schema_name);

@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_spatial_dimensions (definition_id,definition_ovid,definition_name,dimension_name,low_boundary,upper_boundary,tolerance,design_ovid) AS
+select  Definition_ID, Definition_OVID, Definition_Name, Dimension_Name, Low_Boundary, Upper_Boundary, Tolerance, Design_OVID from DMRS_SPATIAL_DIMENSIONS;

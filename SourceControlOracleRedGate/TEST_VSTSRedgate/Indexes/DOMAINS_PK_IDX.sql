@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".domains_pk_idx ON "TEST_VSTSRedgate".dmrs_domains(domain_id);

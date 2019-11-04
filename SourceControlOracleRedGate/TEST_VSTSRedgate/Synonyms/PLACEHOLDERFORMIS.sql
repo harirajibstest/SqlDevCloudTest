@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".placeholderformis FOR "TEST_VSTSRedgate".trtran155;

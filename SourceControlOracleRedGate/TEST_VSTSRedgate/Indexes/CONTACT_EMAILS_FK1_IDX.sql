@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".contact_emails_fk1_idx ON "TEST_VSTSRedgate".dmrs_contact_emails(contact_ovid);

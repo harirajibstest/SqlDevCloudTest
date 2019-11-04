@@ -1,0 +1,7 @@
+CREATE TABLE "TEST_VSTSRedgate".rtemp (
+  tt VARCHAR2(400 BYTE),
+  tt2 VARCHAR2(4000 BYTE),
+  "TIMESTAMP" TIMESTAMP DEFAULT systimestamp,
+  tt3 CLOB,
+  tt4 XMLTYPE
+);

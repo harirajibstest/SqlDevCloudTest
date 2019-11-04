@@ -1,0 +1,13 @@
+CREATE TABLE "TEST_VSTSRedgate".dmrs_avt (
+  dataelement_id VARCHAR2(70 BYTE) NOT NULL,
+  dataelement_ovid VARCHAR2(36 BYTE) NOT NULL,
+  "TYPE" VARCHAR2(10 BYTE),
+  "SEQUENCE" NUMBER NOT NULL,
+  "VALUE" VARCHAR2(256 BYTE) NOT NULL,
+  short_description VARCHAR2(256 BYTE),
+  container_id VARCHAR2(70 BYTE) NOT NULL,
+  container_ovid VARCHAR2(36 BYTE) NOT NULL,
+  container_name VARCHAR2(256 BYTE) NOT NULL,
+  dataelement_name VARCHAR2(256 BYTE) NOT NULL,
+  design_ovid VARCHAR2(36 BYTE) NOT NULL
+);

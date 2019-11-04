@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".trsystem003a_pk ON "TEST_VSTSRedgate".trsystem003a(rech_report_id,rech_subreport_id);

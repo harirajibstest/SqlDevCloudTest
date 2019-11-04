@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trstaging011a (
+  "SECURITY" VARCHAR2(25 BYTE),
+  external_id VARCHAR2(100 BYTE),
+  pc VARCHAR2(25 BYTE),
+  delta_usd VARCHAR2(25 BYTE),
+  pos_delta2 VARCHAR2(25 BYTE),
+  pos_delta1 VARCHAR2(25 BYTE),
+  counterparty VARCHAR2(25 BYTE),
+  trade_date VARCHAR2(25 BYTE),
+  ccy1_amt VARCHAR2(25 BYTE),
+  strike VARCHAR2(25 BYTE),
+  expiry_date VARCHAR2(25 BYTE),
+  delivery_date VARCHAR2(25 BYTE),
+  prem_ccy1 VARCHAR2(25 BYTE),
+  prem_ccy2 VARCHAR2(25 BYTE),
+  pl_ccy2 VARCHAR2(25 BYTE),
+  pl_ccy1 VARCHAR2(25 BYTE),
+  value_ccy1 VARCHAR2(25 BYTE),
+  value_ccy2 VARCHAR2(25 BYTE),
+  entrydate DATE,
+  recordstatus NUMBER(8),
+  currency VARCHAR2(50 BYTE)
+);

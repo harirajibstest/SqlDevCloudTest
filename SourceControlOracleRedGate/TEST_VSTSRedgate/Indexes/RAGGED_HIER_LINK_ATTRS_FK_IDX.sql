@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ragged_hier_link_attrs_fk_idx ON "TEST_VSTSRedgate".dmrs_ragged_hier_link_attrs(ragged_hier_link_ovid);

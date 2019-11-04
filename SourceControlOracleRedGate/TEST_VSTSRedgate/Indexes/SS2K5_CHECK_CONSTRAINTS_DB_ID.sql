@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ss2k5_check_constraints_db_id ON "TEST_VSTSRedgate".ss2k5_check_constraints(db_id);

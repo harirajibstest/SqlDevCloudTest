@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".md_state_type__id ON "TEST_VSTSRedgate".md_applicationfiles("STATE","TYPE","ID");

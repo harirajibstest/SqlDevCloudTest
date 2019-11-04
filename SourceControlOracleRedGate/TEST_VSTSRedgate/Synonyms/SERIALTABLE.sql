@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".serialtable FOR "TEST_VSTSRedgate".trsystem007;

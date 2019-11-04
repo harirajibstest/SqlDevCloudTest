@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".entity_arc_name_idx ON "TEST_VSTSRedgate".dmrs_entity_arcs(object_ovid,arc_name);

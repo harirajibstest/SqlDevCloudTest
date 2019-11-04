@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".trmaster306a_index1 ON "TEST_VSTSRedgate".trmaster306a(brnh_account_number);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".commodityvaluation FOR "TEST_VSTSRedgate".trtran052;

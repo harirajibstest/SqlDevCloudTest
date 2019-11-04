@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_struct_type_attrs (attribute_id,attribute_ovid,attribute_name,structured_type_id,structured_type_ovid,structured_type_name,mandatory,"REFERENCE",t_size,t_precision,t_scale,type_id,type_ovid,type_name,design_ovid) AS
+SELECT Attribute_ID, Attribute_OVID, Attribute_Name, Structured_Type_ID, Structured_Type_OVID, Structured_Type_Name, Mandatory, Reference, T_Size, T_Precision, T_Scale, Type_ID, Type_OVID, Type_Name, Design_OVID FROM DMRS_STRUCT_TYPE_ATTRS;

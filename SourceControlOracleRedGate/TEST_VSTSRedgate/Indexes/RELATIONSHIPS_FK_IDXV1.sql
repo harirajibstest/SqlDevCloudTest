@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".relationships_fk_idxv1 ON "TEST_VSTSRedgate".dmrs_relationships(source_ovid);

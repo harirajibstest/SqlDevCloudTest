@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".document_elements_fk1_idx ON "TEST_VSTSRedgate".dmrs_document_elements(document_ovid);

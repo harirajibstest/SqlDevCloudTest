@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".currencymaster FOR "TEST_VSTSRedgate".trmaster304;

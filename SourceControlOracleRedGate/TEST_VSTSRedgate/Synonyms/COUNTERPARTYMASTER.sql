@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".counterpartymaster FOR "TEST_VSTSRedgate".trmaster309;

@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_view_order_groupby (view_ovid,view_id,view_name,container_id,container_ovid,container_name,container_alias,is_expression,"USAGE","SEQUENCE",column_id,column_ovid,column_name,column_alias,sort_order,expression,design_ovid) AS
+select  View_OVID, View_ID, View_Name, Container_ID, Container_OVID, Container_Name, Container_Alias, Is_Expression, Usage, Sequence, Column_ID, Column_OVID, Column_Name, Column_Alias, Sort_Order, Expression, Design_OVID from DMRS_VIEW_ORDER_GROUPBY;

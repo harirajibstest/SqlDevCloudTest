@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".ccdeals FOR "TEST_VSTSRedgate".trstaging018;

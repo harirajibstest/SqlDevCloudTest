@@ -1,0 +1,23 @@
+CREATE TABLE "TEST_VSTSRedgate".trmaster301 (
+  comp_company_code NUMBER(8) NOT NULL,
+  comp_short_description VARCHAR2(15 BYTE) NOT NULL,
+  comp_long_description VARCHAR2(50 BYTE) NOT NULL,
+  comp_country_code NUMBER(8) NOT NULL,
+  comp_iec_number VARCHAR2(15 BYTE),
+  comp_pan_number VARCHAR2(15 BYTE),
+  comp_rbi_code VARCHAR2(15 BYTE),
+  comp_contact_person VARCHAR2(50 BYTE),
+  comp_address_1 VARCHAR2(50 BYTE),
+  comp_address_2 VARCHAR2(50 BYTE),
+  comp_address_3 VARCHAR2(50 BYTE),
+  comp_address_4 VARCHAR2(50 BYTE),
+  comp_phone_numbers VARCHAR2(200 BYTE),
+  comp_fax_numbers VARCHAR2(200 BYTE),
+  comp_email_id VARCHAR2(100 BYTE),
+  comp_create_date DATE NOT NULL,
+  comp_add_date DATE NOT NULL,
+  comp_entry_detail XMLTYPE,
+  comp_record_status NUMBER(8) NOT NULL,
+  comp_erp_code VARCHAR2(25 BYTE),
+  comp_tax_rate NUMBER(15,4)
+);

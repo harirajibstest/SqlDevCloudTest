@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trmaster204 (
+  cstm_company_code NUMBER(8) NOT NULL,
+  cstm_pick_code NUMBER(8) NOT NULL,
+  cstm_serial_number NUMBER(5) NOT NULL,
+  cstm_short_description VARCHAR2(15 BYTE) NOT NULL,
+  cstm_long_description VARCHAR2(50 BYTE) NOT NULL,
+  cstm_officer_desig VARCHAR2(40 BYTE),
+  cstm_contact_person VARCHAR2(50 BYTE),
+  cstm_address_1 VARCHAR2(50 BYTE) NOT NULL,
+  cstm_address_2 VARCHAR2(50 BYTE),
+  cstm_address_3 VARCHAR2(50 BYTE),
+  cstm_address_4 VARCHAR2(50 BYTE),
+  cstm_phone_numbers VARCHAR2(200 BYTE),
+  cstm_fax_numbers VARCHAR2(200 BYTE),
+  cstm_email_id VARCHAR2(100 BYTE),
+  cstm_create_date DATE NOT NULL,
+  cstm_add_date DATE NOT NULL,
+  cstm_entry_detail XMLTYPE,
+  cstm_record_status NUMBER(8) NOT NULL
+);

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".pk_trmaster504 ON "TEST_VSTSRedgate".trmaster504(cwrh_company_code,cwrh_pick_code);

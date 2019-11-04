@@ -1,0 +1,6 @@
+CREATE TABLE "TEST_VSTSRedgate".trstaging008 (
+  desceription VARCHAR2(100 BYTE),
+  bid VARCHAR2(30 BYTE),
+  ask VARCHAR2(30 BYTE),
+  ltp VARCHAR2(30 BYTE)
+);

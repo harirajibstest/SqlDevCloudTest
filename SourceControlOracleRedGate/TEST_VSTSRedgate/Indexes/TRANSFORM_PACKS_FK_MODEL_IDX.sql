@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".transform_packs_fk_model_idx ON "TEST_VSTSRedgate".dmrs_transformation_packages(model_ovid);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".dummyfile FOR "TEST_VSTSRedgate".trsystem023;

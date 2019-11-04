@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_aggr_func_levels (aggregate_function_id,aggregate_function_name,aggregate_function_ovid,level_id,level_name,level_ovid,design_ovid) AS
+select  Aggregate_Function_ID, Aggregate_Function_Name, Aggregate_Function_OVID, Level_ID, Level_Name, Level_OVID, Design_OVID from DMRS_AGGR_FUNC_LEVELS;

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".md_derivatives_perf_idx4 ON "TEST_VSTSRedgate".md_derivatives(derived_id,derived_type,derived_connection_id_fk);

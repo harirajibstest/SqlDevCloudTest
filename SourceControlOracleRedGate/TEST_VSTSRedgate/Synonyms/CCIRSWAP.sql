@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".ccirswap FOR "TEST_VSTSRedgate".trtran091;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".nserateupload FOR "TEST_VSTSRedgate".trtran077;

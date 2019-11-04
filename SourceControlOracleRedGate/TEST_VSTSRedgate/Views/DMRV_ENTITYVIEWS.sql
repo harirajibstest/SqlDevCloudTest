@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_entityviews (entityview_name,object_id,ovid,model_id,model_ovid,import_id,structured_type_id,structured_type_ovid,structured_type_name,"USER_DEFINED",view_type,model_name,design_ovid) AS
+select  EntityView_Name, Object_ID, OVID, Model_ID, Model_OVID, Import_ID, Structured_Type_ID, Structured_Type_OVID, Structured_Type_Name, User_Defined, View_Type, Model_Name, Design_OVID from DMRS_ENTITYVIEWS;

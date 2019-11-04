@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".forwardfuture FOR "TEST_VSTSRedgate".vewforwardfuture;

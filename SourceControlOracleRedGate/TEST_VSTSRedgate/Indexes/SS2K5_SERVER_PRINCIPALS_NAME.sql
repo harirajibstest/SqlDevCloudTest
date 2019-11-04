@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".ss2k5_server_principals_name ON "TEST_VSTSRedgate".ss2k5_server_principals("NAME");

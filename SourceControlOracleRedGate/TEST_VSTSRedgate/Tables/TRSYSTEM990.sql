@@ -1,0 +1,25 @@
+CREATE GLOBAL TEMPORARY TABLE "TEST_VSTSRedgate".trsystem990 (
+  cpos_deal_number VARCHAR2(25 BYTE) NOT NULL,
+  cpos_exchange_code NUMBER(8),
+  cpos_counter_party NUMBER(8),
+  cpos_hedge_trade NUMBER(8),
+  cpos_buy_sell NUMBER(8),
+  cpos_product_code NUMBER(8),
+  cpos_local_bank NUMBER(8),
+  cpos_lot_numbers NUMBER(15,2),
+  cpos_product_quantity NUMBER(15,2),
+  cpos_product_uom NUMBER(8),
+  cmdl_lot_price NUMBER(15,2),
+  cmdl_deal_amount NUMBER(15,2),
+  cmdl_margin_amount NUMBER(15,2),
+  cmdl_brokerage_amount NUMBER(15,2),
+  cmdl_service_tax NUMBER(15,2),
+  cmdl_transaction_cost NUMBER(15,2),
+  cmdl_other_charges NUMBER(15,2),
+  cmdl_m2m_rate NUMBER(15,2),
+  cmdl_profit_loss NUMBER(15,2),
+  cmdl_maturity_date DATE,
+  cmdl_time_stamp TIMESTAMP,
+  CONSTRAINT pk_trsystem990 PRIMARY KEY (cpos_deal_number)
+)
+ON COMMIT PRESERVE ROWS;

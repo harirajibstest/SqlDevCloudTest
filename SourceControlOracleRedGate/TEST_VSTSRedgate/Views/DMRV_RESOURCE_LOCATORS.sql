@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_resource_locators (resource_locator_id,resource_locator_ovid,resource_locator_name,business_info_id,business_info_ovid,business_info_name,url,design_ovid) AS
+select  Resource_Locator_ID, Resource_Locator_OVID, Resource_Locator_Name, Business_Info_ID, Business_Info_OVID, Business_Info_Name, Url, Design_OVID from DMRS_RESOURCE_LOCATORS;

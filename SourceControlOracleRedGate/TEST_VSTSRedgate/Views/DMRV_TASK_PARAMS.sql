@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_task_params (task_params_id,task_params_ovid,task_params_name,transformation_task_id,transformation_task_ovid,transformation_task_name,task_params_type,multiplicity,system_objective,design_ovid) AS
+select  Task_Params_ID, Task_Params_OVID, Task_Params_Name, Transformation_Task_ID, Transformation_Task_OVID, Transformation_Task_Name, Task_Params_Type, Multiplicity, System_Objective, Design_OVID from DMRS_TASK_PARAMS;

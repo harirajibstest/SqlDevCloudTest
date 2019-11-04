@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".dmrs_large_text_pk_idx ON "TEST_VSTSRedgate".dmrs_large_text(ovid);

@@ -1,0 +1,28 @@
+CREATE GLOBAL TEMPORARY TABLE "TEST_VSTSRedgate".stage_syb12_syscolumns (
+  svrid_fk NUMBER,
+  dbid_gen_fk NUMBER,
+  id_gen_fk NUMBER,
+  colid_gen NUMBER,
+  "ID" NUMBER,
+  db_number NUMBER,
+  colid NUMBER,
+  status NUMBER,
+  db_type NUMBER,
+  "LENGTH" NUMBER,
+  "OFFSET" NUMBER,
+  usertype NUMBER,
+  cdefault NUMBER,
+  domain NUMBER,
+  "NAME" VARCHAR2(255 BYTE),
+  printfmt VARCHAR2(255 BYTE),
+  prec NUMBER,
+  "SCALE" NUMBER,
+  remote_type NUMBER,
+  remote_name VARCHAR2(255 BYTE),
+  xstatus NUMBER,
+  xtype NUMBER,
+  xdbid NUMBER,
+  acessrule NUMBER,
+  status2 NUMBER
+)
+ON COMMIT PRESERVE ROWS;

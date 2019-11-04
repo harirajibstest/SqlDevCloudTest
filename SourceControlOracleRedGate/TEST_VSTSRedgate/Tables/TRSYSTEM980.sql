@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trsystem980 (
+  deal_profile_date DATE,
+  deal_profile_serial NUMBER(3),
+  deal_profile_legend VARCHAR2(25 BYTE),
+  deal_profile_currency VARCHAR2(10 BYTE),
+  deal_profile_april NUMBER(15,2),
+  deal_profile_may NUMBER(15,2),
+  deal_profile_june NUMBER(15,2),
+  deal_profile_july NUMBER(15,2),
+  deal_profile_august NUMBER(15,2),
+  deal_profile_september NUMBER(15,2),
+  deal_profile_october NUMBER(15,2),
+  deal_profile_november NUMBER(15,2),
+  deal_profile_december NUMBER(15,2),
+  deal_profile_january NUMBER(15,2),
+  deal_profile_february NUMBER(15,2),
+  deal_profile_march NUMBER(15,2),
+  deal_profile_total NUMBER(15,2),
+  deal_trader_code NUMBER(8)
+);

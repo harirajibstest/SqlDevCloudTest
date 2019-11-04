@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".md_columns_perf_idx ON "TEST_VSTSRedgate".md_columns(table_id_fk,UPPER(TRIM("COLUMN_NAME")),"ID");

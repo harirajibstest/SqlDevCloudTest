@@ -1,0 +1,20 @@
+CREATE TABLE "TEST_VSTSRedgate".trtran081a (
+  reps_loan_number VARCHAR2(25 BYTE) NOT NULL,
+  reps_sr_number NUMBER(8) NOT NULL,
+  reps_effective_date DATE NOT NULL,
+  reps_installment_date DATE,
+  reps_principal_amount NUMBER(15,2),
+  reps_interest_amount NUMBER(15,2),
+  reps_principal_outstanding NUMBER(15,2),
+  reps_create_date DATE,
+  reps_entry_detail XMLTYPE,
+  reps_record_status NUMBER(8),
+  reps_emi_reference VARCHAR2(25 BYTE),
+  reps_process_complete NUMBER(8),
+  reps_complete_date DATE,
+  reps_record_type NUMBER(5) NOT NULL,
+  reps_interest_rate NUMBER(15,6),
+  reps_convrsion_rate NUMBER(15,6),
+  reps_amount_inr NUMBER(15,2),
+  CONSTRAINT pk_trtran081a PRIMARY KEY (reps_loan_number,reps_effective_date,reps_record_type,reps_sr_number)
+);

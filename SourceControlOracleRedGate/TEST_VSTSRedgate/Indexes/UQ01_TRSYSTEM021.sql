@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".uq01_trsystem021 ON "TEST_VSTSRedgate".trsystem021(splc_policy_group);

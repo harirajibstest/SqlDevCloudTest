@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".tsdp_policy_name_idx ON "TEST_VSTSRedgate".dmrs_tsdp_policies(object_ovid,tsdp_policy_name);

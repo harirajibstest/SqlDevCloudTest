@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".constr_index_columns_fk_idx ON "TEST_VSTSRedgate".dmrs_constr_index_columns(index_ovid);

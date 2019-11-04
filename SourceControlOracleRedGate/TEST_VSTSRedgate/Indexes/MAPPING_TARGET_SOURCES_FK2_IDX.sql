@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".mapping_target_sources_fk2_idx ON "TEST_VSTSRedgate".dmrs_mapping_target_sources(target_ovid);

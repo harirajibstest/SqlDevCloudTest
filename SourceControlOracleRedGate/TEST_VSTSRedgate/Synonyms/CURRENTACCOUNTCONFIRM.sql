@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".currentaccountconfirm FOR "TEST_VSTSRedgate".trtran008;

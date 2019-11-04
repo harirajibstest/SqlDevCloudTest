@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_ext_agent_ext_datas (external_agent_id,external_agent_ovid,external_agent_name,external_data_id,external_data_ovid,external_data_name,design_ovid) AS
+select  External_Agent_ID, External_Agent_OVID, External_Agent_Name, External_Data_ID, External_Data_OVID, External_Data_Name, Design_OVID from DMRS_EXT_AGENT_EXT_DATAS;

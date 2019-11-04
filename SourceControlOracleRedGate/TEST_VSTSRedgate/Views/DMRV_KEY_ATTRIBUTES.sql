@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_key_attributes (key_id,key_ovid,attribute_id,attribute_ovid,entity_id,entity_ovid,key_name,entity_name,attribute_name,"SEQUENCE",relationship_id,relationship_ovid,relationship_name,design_ovid) AS
+select  Key_ID, Key_OVID, Attribute_ID, Attribute_OVID, Entity_ID, Entity_OVID, Key_Name, Entity_Name, Attribute_Name, Sequence, Relationship_ID, Relationship_OVID, Relationship_Name, Design_OVID from DMRS_KEY_ATTRIBUTES;

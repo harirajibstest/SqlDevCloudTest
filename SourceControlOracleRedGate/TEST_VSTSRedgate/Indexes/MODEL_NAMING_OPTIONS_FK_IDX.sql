@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".model_naming_options_fk_idx ON "TEST_VSTSRedgate".dmrs_model_naming_options(model_ovid);

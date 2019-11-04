@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".optionvaluations FOR "TEST_VSTSRedgate".trtran074a;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".bankbalanceentry FOR "TEST_VSTSRedgate".trmaster306a;

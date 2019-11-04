@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".portfoliomaintenance FOR "TEST_VSTSRedgate".trmaster404a;

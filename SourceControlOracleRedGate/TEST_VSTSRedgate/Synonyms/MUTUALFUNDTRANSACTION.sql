@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".mutualfundtransaction FOR "TEST_VSTSRedgate".trtran048;

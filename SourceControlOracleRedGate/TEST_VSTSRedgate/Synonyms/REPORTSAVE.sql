@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".reportsave FOR "TEST_VSTSRedgate".trsystem033;

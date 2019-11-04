@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".reminderdetails FOR "TEST_VSTSRedgate".trtran021;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".kotakcurrencyledger FOR "TEST_VSTSRedgate".trstaging012;

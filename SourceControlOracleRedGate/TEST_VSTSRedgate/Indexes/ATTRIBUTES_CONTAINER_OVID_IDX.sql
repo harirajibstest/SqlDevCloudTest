@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".attributes_container_ovid_idx ON "TEST_VSTSRedgate".dmrs_attributes(container_ovid);

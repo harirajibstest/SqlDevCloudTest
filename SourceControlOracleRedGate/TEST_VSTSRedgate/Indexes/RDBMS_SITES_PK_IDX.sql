@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".rdbms_sites_pk_idx ON "TEST_VSTSRedgate".dmrs_rdbms_sites(site_ovid);

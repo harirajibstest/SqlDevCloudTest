@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".aandllink FOR "TEST_VSTSRedgate".trtran002b;

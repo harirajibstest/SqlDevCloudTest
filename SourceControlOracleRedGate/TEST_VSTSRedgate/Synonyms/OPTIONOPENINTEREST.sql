@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".optionopeninterest FOR "TEST_VSTSRedgate".trtran076;

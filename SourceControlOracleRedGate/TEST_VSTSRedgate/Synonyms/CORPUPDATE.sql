@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".corpupdate FOR "TEST_VSTSRedgate".trtran050;

@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".s_ss2k5_ps_major_id ON "TEST_VSTSRedgate".stage_ss2k5_sysproperties(major_id);

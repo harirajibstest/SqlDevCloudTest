@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".fdinterestrate FOR "TEST_VSTSRedgate".trmaster408;

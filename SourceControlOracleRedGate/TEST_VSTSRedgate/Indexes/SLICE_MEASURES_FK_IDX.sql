@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".slice_measures_fk_idx ON "TEST_VSTSRedgate".dmrs_slice_measures(slice_ovid);

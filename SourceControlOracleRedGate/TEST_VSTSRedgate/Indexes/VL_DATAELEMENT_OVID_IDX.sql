@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".vl_dataelement_ovid_idx ON "TEST_VSTSRedgate".dmrs_value_ranges(dataelement_ovid);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".linkderivatives FOR "TEST_VSTSRedgate".trtran074;

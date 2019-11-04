@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_hierarchy_rollup_links (hierarchy_id,hierarchy_name,hierarchy_ovid,rollup_link_id,rollup_link_name,rollup_link_ovid,design_ovid) AS
+select  Hierarchy_ID, Hierarchy_Name, Hierarchy_OVID, Rollup_Link_ID, Rollup_Link_Name, Rollup_Link_OVID, Design_OVID from DMRS_HIERARCHY_ROLLUP_LINKS;

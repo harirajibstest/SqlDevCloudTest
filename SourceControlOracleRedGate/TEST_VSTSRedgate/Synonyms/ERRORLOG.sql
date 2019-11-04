@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".errorlog FOR "TEST_VSTSRedgate".trsystem800;

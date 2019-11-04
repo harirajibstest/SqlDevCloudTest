@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".debenturemaster FOR "TEST_VSTSRedgate".trmaster412;

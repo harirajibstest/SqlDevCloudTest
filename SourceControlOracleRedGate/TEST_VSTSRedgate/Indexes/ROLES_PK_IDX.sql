@@ -1,0 +1,1 @@
+CREATE INDEX "TEST_VSTSRedgate".roles_pk_idx ON "TEST_VSTSRedgate".dmrs_roles(role_ovid);

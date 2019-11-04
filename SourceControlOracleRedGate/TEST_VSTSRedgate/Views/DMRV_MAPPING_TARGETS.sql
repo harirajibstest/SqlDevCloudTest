@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW "TEST_VSTSRedgate".dmrv_mapping_targets (object_id,object_ovid,object_name,target_id,target_ovid,target_name,object_type,target_type,transformation_type,description,design_ovid) AS
+select  Object_ID, Object_OVID, Object_Name, Target_ID, Target_OVID, Target_Name, Object_Type, Target_Type, Transformation_Type, Description, Design_OVID from DMRS_MAPPING_TARGETS;

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "TEST_VSTSRedgate".trsystem001_pk ON "TEST_VSTSRedgate".trsystem001(hday_location_code,hday_calendar_date);

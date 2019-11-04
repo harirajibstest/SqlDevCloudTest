@@ -1,0 +1,1 @@
+CREATE OR REPLACE SYNONYM "TEST_VSTSRedgate".entityinfo FOR "TEST_VSTSRedgate".trsystem995;
